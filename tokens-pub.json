@@ -1440,20 +1440,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "reference 2.1.0",
-      "semantic 2.1.0",
-      "link",
-      "round-button",
-      "badge",
-      "button",
-      "card",
-      "progress-bar",
-      "section",
-      "seperator",
-      "text",
-      "textfield",
-      "toast",
-      "tooltip",
-      "view"
+      "semantic 2.1.0"
     ]
   }
 }
