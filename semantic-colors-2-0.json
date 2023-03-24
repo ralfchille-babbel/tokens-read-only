@@ -221,7 +221,8 @@
               },
               "border": {
                 "value": "#D3D4D9FF",
-                "type": "color"
+                "type": "color",
+                "description": "Deprecated"
               }
             },
             "selected": {
@@ -1906,5 +1907,11 @@
         }
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "color"
+    ]
   }
 }
