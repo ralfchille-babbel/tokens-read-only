@@ -510,6 +510,13 @@
                   "type": "color",
                   "description": " "
                 }
+              },
+              "solved": {
+                "background": {
+                  "value": "#D9EAFD",
+                  "type": "color",
+                  "description": "New 2.0.11"
+                }
               }
             }
           },
@@ -1662,6 +1669,13 @@
                   "value": "#535665FF",
                   "type": "color",
                   "description": " "
+                }
+              },
+              "solved": {
+                "background": {
+                  "value": "#1B2555",
+                  "type": "color",
+                  "description": "New 2.0.11"
                 }
               }
             }
