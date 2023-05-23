@@ -21,7 +21,7 @@
           "type": "fontWeights"
         },
         "regular-italic": {
-          "value": "Book Italic",
+          "value": "Regular Italic",
           "type": "fontWeights"
         },
         "semibold": {
@@ -1023,7 +1023,7 @@
         "value": "{color.orange.700}",
         "type": "color"
       },
-      "on-on-default": {
+      "on-default": {
         "value": "{color.white}",
         "type": "color"
       },
@@ -1059,6 +1059,10 @@
       },
       "active": {
         "value": "{color.gray.600}",
+        "type": "color"
+      },
+      "on-default": {
+        "value": "{color.white}",
         "type": "color"
       },
       "surface-1": {
@@ -1563,6 +1567,40 @@
           "value": "{color.emerald.800}",
           "type": "color"
         }
+      }
+    },
+    "border": {
+      "accent": {
+        "value": {
+          "style": "solid",
+          "color": "{accent.default}",
+          "width": "1px"
+        },
+        "type": "border"
+      },
+      "high-contrast": {
+        "value": {
+          "color": "{lines.high-contrast}",
+          "width": "1px",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "default": {
+        "value": {
+          "color": "{lines.default}",
+          "width": "1px",
+          "style": "solid"
+        },
+        "type": "border"
+      },
+      "low-contrast": {
+        "value": {
+          "color": "{lines.low-contrast}",
+          "width": "1px",
+          "style": "solid"
+        },
+        "type": "border"
       }
     }
   },
@@ -2103,7 +2141,7 @@
     "primary": {
       "default": {
         "icon-color": {
-          "value": "{brand.on-on-default}",
+          "value": "{brand.on-default}",
           "type": "color"
         },
         "background": {
@@ -2339,7 +2377,7 @@
           }
         },
         "foreground": {
-          "value": "{brand.on-on-default}",
+          "value": "{brand.on-default}",
           "type": "color"
         }
       },
