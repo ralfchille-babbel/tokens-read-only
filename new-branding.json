@@ -25,7 +25,7 @@
           "type": "fontWeights"
         },
         "semibold": {
-          "value": "SemiBold",
+          "value": "Semibold",
           "type": "fontWeights"
         },
         "bold": {
@@ -208,7 +208,7 @@
       },
       "weight-serif": {
         "regular": {
-          "value": "regular",
+          "value": "Regular",
           "type": "fontWeights"
         }
       }
