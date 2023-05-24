@@ -1014,39 +1014,47 @@
       "default": {
         "value": "{color.orange.orange500}",
         "type": "color",
-        "description": "Main brand color. Use it for UI elements that are related to the learners succes like buttons in trainers, progress bars or achievments."
+        "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text."
       },
       "hover": {
         "value": "{color.orange.orange600}",
-        "type": "color"
+        "type": "color",
+        "description": "Hover state of the default brand color. Only us in interactive elements that provide a hover state."
       },
       "active": {
         "value": "{color.orange.orange700}",
-        "type": "color"
+        "type": "color",
+        "description": "Active state of the default brand color. Only us in interactive elements that provide an active state."
       },
       "on-default": {
         "value": "{color.white}",
-        "type": "color"
+        "type": "color",
+        "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
       },
       "surface-1": {
-        "value": "{color.orange.orange100}",
-        "type": "color"
+        "value": "{color.orange.orange75}",
+        "type": "color",
+        "description": "Indicate surfaces in context with learners success."
       },
       "surface-2": {
-        "value": "{color.orange.orange200}",
-        "type": "color"
+        "value": "{color.orange.orange100}",
+        "type": "color",
+        "description": "Indicate surfaces in context with learners success."
       },
       "surface-3": {
-        "value": "{color.orange.orange300}",
-        "type": "color"
+        "value": "{color.orange.orange200}",
+        "type": "color",
+        "description": "Indicate surfaces in context with learners success."
       },
       "on-surface-1": {
         "value": "{color.orange.orange800}",
-        "type": "color"
+        "type": "color",
+        "description": "Use as forground color in the context of learners success."
       },
       "on-surface-2": {
         "value": "{color.orange.orange700}",
-        "type": "color"
+        "type": "color",
+        "description": "Use as forground color in the context of learners success."
       }
     },
     "accent": {
