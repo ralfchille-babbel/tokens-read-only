@@ -1013,7 +1013,8 @@
     "brand": {
       "default": {
         "value": "{color.orange.500}",
-        "type": "color"
+        "type": "color",
+        "description": "Main brand color. Use it for UI elements that are related to the learners succes like buttons in trainer, progress bars or achievments."
       },
       "hover": {
         "value": "{color.orange.600}",
