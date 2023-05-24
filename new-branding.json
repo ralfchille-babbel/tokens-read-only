@@ -1032,12 +1032,12 @@
         "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
       },
       "surface-1": {
-        "value": "{color.orange.orange75}",
+        "value": "{color.orange.orange50}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-2": {
-        "value": "{color.orange.orange100}",
+        "value": "{color.orange.orange75}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
@@ -1118,7 +1118,7 @@
         "type": "color"
       },
       "active": {
-        "value": "{color.gray.gray75}",
+        "value": "{color.gray.gray100}",
         "type": "color"
       },
       "on-default": {
@@ -1136,10 +1136,6 @@
         "type": "color"
       },
       "on-surface-3": {
-        "value": "{color.gray.gray700}",
-        "type": "color"
-      },
-      "on-surface-4": {
         "value": "{color.gray.gray500}",
         "type": "color"
       },
@@ -1168,11 +1164,15 @@
         "type": "color"
       },
       "surface-inverse-1": {
-        "value": "{color.gray.gray800}",
+        "value": "{color.black}",
         "type": "color"
       },
       "surface-inverse-2": {
-        "value": "{color.gray.gray900}",
+        "value": "{color.gray.gray800}",
+        "type": "color"
+      },
+      "surface-inverse-2-copy": {
+        "value": "{color.gray.gray500}",
         "type": "color"
       }
     },
