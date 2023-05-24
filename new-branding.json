@@ -1055,6 +1055,11 @@
         "value": "{color.orange.orange700}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
+      },
+      "on-surface-3": {
+        "value": "{color.orange.orange600}",
+        "type": "color",
+        "description": "Use as forground color in the context of learners success."
       }
     },
     "accent": {
