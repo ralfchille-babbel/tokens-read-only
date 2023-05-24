@@ -1908,15 +1908,15 @@
         "type": "color"
       },
       "surface-1": {
-        "value": "{color.gray.gray50}",
+        "value": "{color.gray.gray800}",
         "type": "color"
       },
       "surface-2": {
-        "value": "{color.gray.gray75}",
+        "value": "{color.gray.gray700}",
         "type": "color"
       },
       "surface-3": {
-        "value": "{color.gray.gray100}",
+        "value": "{color.gray.gray600}",
         "type": "color"
       },
       "on-surface-1": {
@@ -1942,15 +1942,15 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.gray.gray50}",
+        "value": "{color.gray.gray800}",
         "type": "color"
       },
       "active": {
-        "value": "{color.gray.gray100}",
+        "value": "{color.gray.gray700}",
         "type": "color"
       },
       "on-default": {
-        "value": "{color.black}",
+        "value": "{color.white}",
         "type": "color"
       }
     },
