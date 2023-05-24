@@ -1892,19 +1892,19 @@
     },
     "accent": {
       "default": {
-        "value": "{color.black}",
+        "value": "{color.white}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.gray.gray800}",
+        "value": "{color.gray.gray100}",
         "type": "color"
       },
       "active": {
-        "value": "{color.gray.gray600}",
+        "value": "{color.gray.gray200}",
         "type": "color"
       },
       "on-default": {
-        "value": "{color.white}",
+        "value": "{color.black}",
         "type": "color"
       },
       "surface-1": {
@@ -1934,7 +1934,7 @@
     },
     "light-accent": {
       "default": {
-        "value": "{color.white}",
+        "value": "{color.gray.gray900}",
         "type": "color"
       },
       "default-transparent": {
@@ -3074,17 +3074,13 @@
     {
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
       "name": "Light Mode",
-      "selectedTokenSets": {
-        "semantic dark": "disabled"
-      },
+      "selectedTokenSets": {},
       "$figmaStyleReferences": {}
     },
     {
       "id": "289acfd682c0a1c0c09463f4cb684caca1a270f3",
       "name": "Dark Mode",
-      "selectedTokenSets": {
-        "semantic dark": "disabled"
-      },
+      "selectedTokenSets": {},
       "$figmaStyleReferences": {}
     }
   ],
