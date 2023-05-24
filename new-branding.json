@@ -2368,12 +2368,12 @@
             "value": "{brand.default}",
             "type": "color"
           },
-          "active": {
-            "value": "{brand.active}",
-            "type": "color"
-          },
           "hover": {
             "value": "{brand.hover}",
+            "type": "color"
+          },
+          "active": {
+            "value": "{brand.active}",
             "type": "color"
           }
         },
@@ -2398,7 +2398,7 @@
           }
         },
         "border": {
-          "value": "{lines.default}",
+          "value": "{accent.default}",
           "type": "color"
         },
         "foreground": {
@@ -2409,7 +2409,7 @@
       "tertiary": {
         "background": {
           "default": {
-            "value": "{light-accent.default}",
+            "value": "{light-accent.default-transparent}",
             "type": "color"
           },
           "hover": {
