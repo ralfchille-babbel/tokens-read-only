@@ -1114,7 +1114,7 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.gray.gray50}",
+        "value": "{color.gray.gray75}",
         "type": "color"
       },
       "active": {
