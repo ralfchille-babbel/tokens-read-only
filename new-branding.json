@@ -1062,6 +1062,28 @@
         "description": "Use as forground color in the context of learners success."
       }
     },
+    "light-brand": {
+      "default": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "default-transparent": {
+        "value": "{color.transparent}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{color.orange.orange50}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.orange.orange75}",
+        "type": "color"
+      },
+      "on-default": {
+        "value": "{color.orange.orange500}",
+        "type": "color"
+      }
+    },
     "accent": {
       "default": {
         "value": "{color.black}",
@@ -1890,6 +1912,28 @@
         "description": "Use as forground color in the context of learners success."
       }
     },
+    "light-brand": {
+      "default": {
+        "value": "{color.white}",
+        "type": "color"
+      },
+      "default-transparent": {
+        "value": "{color.transparent}",
+        "type": "color"
+      },
+      "hover": {
+        "value": "{color.orange.orange50}",
+        "type": "color"
+      },
+      "active": {
+        "value": "{color.orange.orange75}",
+        "type": "color"
+      },
+      "on-default": {
+        "value": "{color.orange.orange500}",
+        "type": "color"
+      }
+    },
     "accent": {
       "default": {
         "value": "{color.white}",
@@ -1934,7 +1978,7 @@
     },
     "light-accent": {
       "default": {
-        "value": "{color.gray.gray900}",
+        "value": "{color.black}",
         "type": "color"
       },
       "default-transparent": {
