@@ -1914,7 +1914,7 @@
     },
     "light-brand": {
       "default": {
-        "value": "{color.white}",
+        "value": "{color.black}",
         "type": "color"
       },
       "default-transparent": {
@@ -1922,11 +1922,11 @@
         "type": "color"
       },
       "hover": {
-        "value": "{color.orange.orange50}",
+        "value": "{color.orange.orange900}",
         "type": "color"
       },
       "active": {
-        "value": "{color.orange.orange75}",
+        "value": "{color.orange.orange800}",
         "type": "color"
       },
       "on-default": {
