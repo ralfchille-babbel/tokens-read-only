@@ -958,22 +958,22 @@
         },
         "type": "typography"
       },
-      "default": {
-        "value": {
-          "fontFamily": "{font.family.serif}",
-          "fontWeight": "{font.weight-serif.regular}",
-          "lineHeight": "{font.line-height.x11}",
-          "fontSize": "{font.font-size.x10}",
-          "paragraphSpacing": "{font.paragraph-spacing.x4}"
-        },
-        "type": "typography"
-      },
       "small": {
         "value": {
           "fontFamily": "{font.family.serif}",
           "fontWeight": "{font.weight-serif.regular}",
           "lineHeight": "{font.line-height.x10}",
           "fontSize": "{font.font-size.x8}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{font.family.serif}",
+          "fontWeight": "{font.weight-serif.regular}",
+          "lineHeight": "{font.line-height.x11}",
+          "fontSize": "{font.font-size.x10}",
           "paragraphSpacing": "{font.paragraph-spacing.x4}"
         },
         "type": "typography"
