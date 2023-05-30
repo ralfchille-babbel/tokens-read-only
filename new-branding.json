@@ -948,6 +948,16 @@
       }
     },
     "title": {
+      "xsmall": {
+        "value": {
+          "fontFamily": "{font.family.serif}",
+          "fontWeight": "{font.weight-serif.regular}",
+          "lineHeight": "{font.line-height.x8}",
+          "fontSize": "{font.font-size.x6}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
       "default": {
         "value": {
           "fontFamily": "{font.family.serif}",
