@@ -387,7 +387,7 @@
         "description": "48rem"
       }
     },
-    "radius": {
+    "radius-size": {
       "x05": {
         "value": "2px",
         "type": "borderRadius"
@@ -1521,27 +1521,27 @@
     },
     "radius": {
       "xsmall": {
-        "value": "{radius.x05}",
+        "value": "{radius-size.x05}",
         "type": "borderRadius"
       },
       "small": {
-        "value": "{radius.x1}",
+        "value": "{radius-size.x1}",
         "type": "borderRadius"
       },
       "default": {
-        "value": "{radius.x2}",
+        "value": "{radius-size.x2}",
         "type": "borderRadius"
       },
       "large": {
-        "value": "{radius.x3}",
+        "value": "{radius-size.x3}",
         "type": "borderRadius"
       },
       "xlarge": {
-        "value": "{radius.x4}",
+        "value": "{radius-size.x4}",
         "type": "borderRadius"
       },
       "round": {
-        "value": "{radius.x1000}",
+        "value": "{radius-size.x1000}",
         "type": "borderRadius"
       }
     },
@@ -2381,27 +2381,27 @@
     },
     "radius": {
       "xsmall": {
-        "value": "{radius.x05}",
+        "value": "{radius-size.x05}",
         "type": "borderRadius"
       },
       "small": {
-        "value": "{radius.x1}",
+        "value": "{radius-size.x1}",
         "type": "borderRadius"
       },
       "default": {
-        "value": "{radius.x2}",
+        "value": "{radius-size.x2}",
         "type": "borderRadius"
       },
       "large": {
-        "value": "{radius.x3}",
+        "value": "{radius-size.x3}",
         "type": "borderRadius"
       },
       "xlarge": {
-        "value": "{radius.x4}",
+        "value": "{radius-size.x4}",
         "type": "borderRadius"
       },
       "round": {
-        "value": "{radius.x1000}",
+        "value": "{radius-size.x1000}",
         "type": "borderRadius"
       }
     },
