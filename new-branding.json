@@ -1072,7 +1072,7 @@
         "description": "Use as forground color in the context of learners success."
       }
     },
-    "brand-light": {
+    "light-brand": {
       "default": {
         "value": "{reference.white}",
         "type": "color"
@@ -1132,7 +1132,7 @@
         "type": "color"
       }
     },
-    "accent-light": {
+    "light-accent": {
       "default": {
         "value": "{reference.white}",
         "type": "color"
@@ -2610,7 +2610,7 @@
     "secondary": {
       "default": {
         "background": {
-          "value": "{accent-light.default}",
+          "value": "{light-accent.default}",
           "type": "color"
         },
         "icon-color": {
@@ -2624,7 +2624,7 @@
       },
       "active": {
         "background": {
-          "value": "{accent-light.active}",
+          "value": "{light-accent.active}",
           "type": "color"
         }
       },
@@ -2654,13 +2654,13 @@
       },
       "hover": {
         "background": {
-          "value": "{accent-light.hover}",
+          "value": "{light-accent.hover}",
           "type": "color"
         }
       },
       "active": {
         "background": {
-          "value": "{accent-light.active}",
+          "value": "{light-accent.active}",
           "type": "color"
         }
       },
@@ -2815,15 +2815,15 @@
       "secondary": {
         "background": {
           "default": {
-            "value": "{accent-light.default}",
+            "value": "{light-accent.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{accent-light.hover}",
+            "value": "{light-accent.hover}",
             "type": "color"
           },
           "active": {
-            "value": "{accent-light.active}",
+            "value": "{light-accent.active}",
             "type": "color"
           },
           "disabled": {
@@ -2855,15 +2855,15 @@
       "secondary-emphasis": {
         "background": {
           "default": {
-            "value": "{brand-light.default}",
+            "value": "{light-brand.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{brand-light.hover}",
+            "value": "{light-brand.hover}",
             "type": "color"
           },
           "active": {
-            "value": "{brand-light.active}",
+            "value": "{light-brand.active}",
             "type": "color"
           },
           "disabled": {
@@ -2899,11 +2899,11 @@
             "type": "color"
           },
           "hover": {
-            "value": "{accent-light.hover}",
+            "value": "{light-accent.hover}",
             "type": "color"
           },
           "active": {
-            "value": "{accent-light.active}",
+            "value": "{light-accent.active}",
             "type": "color"
           },
           "disabled": {
@@ -2925,15 +2925,15 @@
       "primary-inverse": {
         "background": {
           "default": {
-            "value": "{accent-light.default}",
+            "value": "{light-accent.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{accent-light.hover}",
+            "value": "{light-accent.hover}",
             "type": "color"
           },
           "active": {
-            "value": "{accent-light.active}",
+            "value": "{light-accent.active}",
             "type": "color"
           },
           "disabled": {
@@ -2943,7 +2943,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{accent-light.on-default}",
+            "value": "{light-accent.on-default}",
             "type": "color"
           },
           "disabled": {
@@ -2973,7 +2973,7 @@
         },
         "border": {
           "default": {
-            "value": "{accent-light.default}",
+            "value": "{light-accent.default}",
             "type": "color"
           },
           "disabled": {
@@ -2983,7 +2983,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{accent-light.default}",
+            "value": "{light-accent.default}",
             "type": "color"
           },
           "disabled": {
@@ -3013,7 +3013,7 @@
         },
         "foreground": {
           "default": {
-            "value": "{accent-light.default}",
+            "value": "{light-accent.default}",
             "type": "color"
           },
           "disabled": {
