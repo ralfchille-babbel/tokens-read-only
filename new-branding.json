@@ -3113,6 +3113,18 @@
           "value": "{neutral.on-surface-inverse}",
           "type": "color"
         }
+      },
+      "background": {
+        "default": {
+          "value": "#86807466",
+          "type": "color",
+          "description": "{neutral.on-surface-3} at 40%"
+        },
+        "inverse": {
+          "value": "#F4F3F066",
+          "type": "color",
+          "description": "{neutral.on-surface-inverse} at 40%"
+        }
       }
     }
   },
@@ -3306,17 +3318,13 @@
     {
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
       "name": "Light Mode",
-      "selectedTokenSets": {
-        "spinner": "disabled"
-      },
+      "selectedTokenSets": {},
       "$figmaStyleReferences": {}
     },
     {
       "id": "289acfd682c0a1c0c09463f4cb684caca1a270f3",
       "name": "Dark Mode",
-      "selectedTokenSets": {
-        "spinner": "disabled"
-      },
+      "selectedTokenSets": {},
       "$figmaStyleReferences": {}
     }
   ],
