@@ -413,7 +413,7 @@
         "type": "borderRadius"
       }
     },
-    "color": {
+    "reference": {
       "orange": {
         "orange50": {
           "value": "#FFF9F5",
@@ -1022,233 +1022,233 @@
     },
     "brand": {
       "default": {
-        "value": "{color.orange.orange500}",
+        "value": "{reference.orange.orange500}",
         "type": "color",
         "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text."
       },
       "hover": {
-        "value": "{color.orange.orange600}",
+        "value": "{reference.orange.orange600}",
         "type": "color",
         "description": "Hover state of the default brand color. Only us in interactive elements that provide a hover state."
       },
       "active": {
-        "value": "{color.orange.orange700}",
+        "value": "{reference.orange.orange700}",
         "type": "color",
         "description": "Active state of the default brand color. Only us in interactive elements that provide an active state."
       },
       "on-default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color",
         "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
       },
       "surface-1": {
-        "value": "{color.orange.orange50}",
+        "value": "{reference.orange.orange50}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-2": {
-        "value": "{color.orange.orange75}",
+        "value": "{reference.orange.orange75}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-3": {
-        "value": "{color.orange.orange200}",
+        "value": "{reference.orange.orange200}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "on-surface-1": {
-        "value": "{color.orange.orange800}",
+        "value": "{reference.orange.orange800}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       },
       "on-surface-2": {
-        "value": "{color.orange.orange700}",
+        "value": "{reference.orange.orange700}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       },
       "on-surface-3": {
-        "value": "{color.orange.orange600}",
+        "value": "{reference.orange.orange600}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       }
     },
     "light-brand": {
       "default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "default-transparent": {
-        "value": "{color.transparent}",
+        "value": "{reference.transparent}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.orange.orange50}",
+        "value": "{reference.orange.orange50}",
         "type": "color"
       },
       "active": {
-        "value": "{color.orange.orange75}",
+        "value": "{reference.orange.orange75}",
         "type": "color"
       },
       "on-default": {
-        "value": "{color.orange.orange500}",
+        "value": "{reference.orange.orange500}",
         "type": "color"
       }
     },
     "accent": {
       "default": {
-        "value": "{color.black}",
+        "value": "{reference.black}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.gray.gray800}",
+        "value": "{reference.gray.gray800}",
         "type": "color"
       },
       "active": {
-        "value": "{color.gray.gray600}",
+        "value": "{reference.gray.gray600}",
         "type": "color"
       },
       "on-default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "surface-1": {
-        "value": "{color.gray.gray50}",
+        "value": "{reference.gray.gray50}",
         "type": "color"
       },
       "surface-2": {
-        "value": "{color.gray.gray75}",
+        "value": "{reference.gray.gray75}",
         "type": "color"
       },
       "surface-3": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "on-surface-1": {
-        "value": "{color.black}",
+        "value": "{reference.black}",
         "type": "color"
       },
       "on-surface-2": {
-        "value": "{color.gray.gray800}",
+        "value": "{reference.gray.gray800}",
         "type": "color"
       },
       "on-surface-3": {
-        "value": "{color.gray.gray500}",
+        "value": "{reference.gray.gray500}",
         "type": "color"
       }
     },
     "light-accent": {
       "default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "default-transparent": {
-        "value": "{color.transparent}",
+        "value": "{reference.transparent}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.gray.gray75}",
+        "value": "{reference.gray.gray75}",
         "type": "color"
       },
       "active": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "on-default": {
-        "value": "{color.black}",
+        "value": "{reference.black}",
         "type": "color"
       }
     },
     "neutral": {
       "on-surface-1": {
-        "value": "{color.black}",
+        "value": "{reference.black}",
         "type": "color"
       },
       "on-surface-2": {
-        "value": "{color.gray.gray800}",
+        "value": "{reference.gray.gray800}",
         "type": "color"
       },
       "on-surface-3": {
-        "value": "{color.gray.gray500}",
+        "value": "{reference.gray.gray500}",
         "type": "color"
       },
       "app-background": {
-        "value": "{color.gray.gray50}",
+        "value": "{reference.gray.gray50}",
         "type": "color"
       },
       "surface-1": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "surface-2": {
-        "value": "{color.gray.gray50}",
+        "value": "{reference.gray.gray50}",
         "type": "color"
       },
       "surface-3": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "surface-4": {
-        "value": "{color.gray.gray200}",
+        "value": "{reference.gray.gray200}",
         "type": "color"
       },
       "surface-inverse-1": {
-        "value": "{color.black}",
+        "value": "{reference.black}",
         "type": "color"
       },
       "surface-inverse-2": {
-        "value": "{color.gray.gray800}",
+        "value": "{reference.gray.gray800}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{color.gray.gray50}",
+        "value": "{reference.gray.gray50}",
         "type": "color"
       }
     },
     "feedback": {
       "success": {
         "surface": {
-          "value": "{color.green.green200}",
+          "value": "{reference.green.green200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.green.green500}",
+          "value": "{reference.green.green500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{color.green.green800}",
+          "value": "{reference.green.green800}",
           "type": "color"
         }
       },
       "warning": {
         "surface": {
-          "value": "{color.yellow.yellow200}",
+          "value": "{reference.yellow.yellow200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.yellow.yellow500}",
+          "value": "{reference.yellow.yellow500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{color.yellow.yellow800}",
+          "value": "{reference.yellow.yellow800}",
           "type": "color"
         }
       },
       "attention": {
         "surface": {
-          "value": "{color.red.red200}",
+          "value": "{reference.red.red200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.red.red500}",
+          "value": "{reference.red.red500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{color.red.red800}",
+          "value": "{reference.red.red800}",
           "type": "color"
         }
       },
       "on-default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       }
     },
@@ -1441,51 +1441,51 @@
     },
     "other": {
       "none": {
-        "value": "{color.transparent}",
+        "value": "{reference.transparent}",
         "type": "color"
       },
       "focus": {
-        "value": "{color.orange.orange500}",
+        "value": "{reference.orange.orange500}",
         "type": "color"
       }
     },
     "disabled": {
       "default": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "surface": {
-        "value": "{color.gray.gray75}",
+        "value": "{reference.gray.gray75}",
         "type": "color"
       },
       "on-surface-1": {
-        "value": "{color.gray.gray400}",
+        "value": "{reference.gray.gray400}",
         "type": "color"
       },
       "on-surface-2": {
-        "value": "{color.gray.gray300}",
+        "value": "{reference.gray.gray300}",
         "type": "color"
       },
       "surface-inverse": {
-        "value": "{color.gray.gray700}",
+        "value": "{reference.gray.gray700}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{color.gray.gray400}",
+        "value": "{reference.gray.gray400}",
         "type": "color"
       }
     },
     "lines": {
       "low-contrast": {
-        "value": "{color.gray.gray75}",
+        "value": "{reference.gray.gray75}",
         "type": "color"
       },
       "default": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "high-contrast": {
-        "value": "{color.gray.gray300}",
+        "value": "{reference.gray.gray300}",
         "type": "color"
       }
     },
@@ -1556,57 +1556,57 @@
     "illustration": {
       "tangerine": {
         "light": {
-          "value": "{color.tangerine.tangerine200}",
+          "value": "{reference.tangerine.tangerine200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.tangerine.tangerine500}",
+          "value": "{reference.tangerine.tangerine500}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.tangerine.tangerine800}",
+          "value": "{reference.tangerine.tangerine800}",
           "type": "color"
         }
       },
       "dandelion": {
         "light": {
-          "value": "{color.dandelion.dandelion200}",
+          "value": "{reference.dandelion.dandelion200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.dandelion.dandelion500}",
+          "value": "{reference.dandelion.dandelion500}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.dandelion.dandelion700}",
+          "value": "{reference.dandelion.dandelion700}",
           "type": "color"
         }
       },
       "violet": {
         "light": {
-          "value": "{color.violet.violet200}",
+          "value": "{reference.violet.violet200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.violet.violet500}",
+          "value": "{reference.violet.violet500}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.violet.violet800}",
+          "value": "{reference.violet.violet800}",
           "type": "color"
         }
       },
       "emerald": {
         "light": {
-          "value": "{color.emerald.emerald200}",
+          "value": "{reference.emerald.emerald200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.emerald.emerald500}",
+          "value": "{reference.emerald.emerald500}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.emerald.emerald800}",
+          "value": "{reference.emerald.emerald800}",
           "type": "color"
         }
       }
@@ -1882,233 +1882,233 @@
     },
     "brand": {
       "default": {
-        "value": "{color.orange.orange500}",
+        "value": "{reference.orange.orange500}",
         "type": "color",
         "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text."
       },
       "hover": {
-        "value": "{color.orange.orange600}",
+        "value": "{reference.orange.orange600}",
         "type": "color",
         "description": "Hover state of the default brand color. Only us in interactive elements that provide a hover state."
       },
       "active": {
-        "value": "{color.orange.orange700}",
+        "value": "{reference.orange.orange700}",
         "type": "color",
         "description": "Active state of the default brand color. Only us in interactive elements that provide an active state."
       },
       "on-default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color",
         "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
       },
       "surface-1": {
-        "value": "{color.orange.orange900}",
+        "value": "{reference.orange.orange900}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-2": {
-        "value": "{color.orange.orange800}",
+        "value": "{reference.orange.orange800}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-3": {
-        "value": "{color.orange.orange600}",
+        "value": "{reference.orange.orange600}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "on-surface-1": {
-        "value": "{color.orange.orange50}",
+        "value": "{reference.orange.orange50}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       },
       "on-surface-2": {
-        "value": "{color.orange.orange100}",
+        "value": "{reference.orange.orange100}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       },
       "on-surface-3": {
-        "value": "{color.orange.orange200}",
+        "value": "{reference.orange.orange200}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       }
     },
     "light-brand": {
       "default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "default-transparent": {
-        "value": "{color.transparent}",
+        "value": "{reference.transparent}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.orange.orange50}",
+        "value": "{reference.orange.orange50}",
         "type": "color"
       },
       "active": {
-        "value": "{color.orange.orange75}",
+        "value": "{reference.orange.orange75}",
         "type": "color"
       },
       "on-default": {
-        "value": "{color.orange.orange500}",
+        "value": "{reference.orange.orange500}",
         "type": "color"
       }
     },
     "accent": {
       "default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "active": {
-        "value": "{color.gray.gray200}",
+        "value": "{reference.gray.gray200}",
         "type": "color"
       },
       "on-default": {
-        "value": "{color.black}",
+        "value": "{reference.black}",
         "type": "color"
       },
       "surface-1": {
-        "value": "{color.gray.gray800}",
+        "value": "{reference.gray.gray800}",
         "type": "color"
       },
       "surface-2": {
-        "value": "{color.gray.gray700}",
+        "value": "{reference.gray.gray700}",
         "type": "color"
       },
       "surface-3": {
-        "value": "{color.gray.gray600}",
+        "value": "{reference.gray.gray600}",
         "type": "color"
       },
       "on-surface-1": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "on-surface-2": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "on-surface-3": {
-        "value": "{color.gray.gray500}",
+        "value": "{reference.gray.gray500}",
         "type": "color"
       }
     },
     "light-accent": {
       "default": {
-        "value": "{color.black}",
+        "value": "{reference.black}",
         "type": "color"
       },
       "default-transparent": {
-        "value": "{color.transparent}",
+        "value": "{reference.transparent}",
         "type": "color"
       },
       "hover": {
-        "value": "{color.gray.gray800}",
+        "value": "{reference.gray.gray800}",
         "type": "color"
       },
       "active": {
-        "value": "{color.gray.gray700}",
+        "value": "{reference.gray.gray700}",
         "type": "color"
       },
       "on-default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       }
     },
     "neutral": {
       "on-surface-1": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "on-surface-2": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "on-surface-3": {
-        "value": "{color.gray.gray300}",
+        "value": "{reference.gray.gray300}",
         "type": "color"
       },
       "app-background": {
-        "value": "{color.black}",
+        "value": "{reference.black}",
         "type": "color"
       },
       "surface-1": {
-        "value": "{color.gray.gray900}",
+        "value": "{reference.gray.gray900}",
         "type": "color"
       },
       "surface-2": {
-        "value": "{color.gray.gray800}",
+        "value": "{reference.gray.gray800}",
         "type": "color"
       },
       "surface-3": {
-        "value": "{color.gray.gray700}",
+        "value": "{reference.gray.gray700}",
         "type": "color"
       },
       "surface-4": {
-        "value": "{color.gray.gray600}",
+        "value": "{reference.gray.gray600}",
         "type": "color"
       },
       "surface-inverse-1": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "surface-inverse-2": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{color.black}",
+        "value": "{reference.black}",
         "type": "color"
       }
     },
     "feedback": {
       "success": {
         "surface": {
-          "value": "{color.green.green200}",
+          "value": "{reference.green.green200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.green.green500}",
+          "value": "{reference.green.green500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{color.green.green800}",
+          "value": "{reference.green.green800}",
           "type": "color"
         }
       },
       "warning": {
         "surface": {
-          "value": "{color.yellow.yellow200}",
+          "value": "{reference.yellow.yellow200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.yellow.yellow500}",
+          "value": "{reference.yellow.yellow500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{color.yellow.yellow800}",
+          "value": "{reference.yellow.yellow800}",
           "type": "color"
         }
       },
       "attention": {
         "surface": {
-          "value": "{color.red.red200}",
+          "value": "{reference.red.red200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.red.red500}",
+          "value": "{reference.red.red500}",
           "type": "color"
         },
         "on-surface": {
-          "value": "{color.red.red800}",
+          "value": "{reference.red.red800}",
           "type": "color"
         }
       },
       "on-default": {
-        "value": "{color.white}",
+        "value": "{reference.white}",
         "type": "color"
       }
     },
@@ -2301,51 +2301,51 @@
     },
     "other": {
       "none": {
-        "value": "{color.transparent}",
+        "value": "{reference.transparent}",
         "type": "color"
       },
       "focus": {
-        "value": "{color.orange.orange500}",
+        "value": "{reference.orange.orange500}",
         "type": "color"
       }
     },
     "disabled": {
       "default": {
-        "value": "{color.gray.gray100}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "surface": {
-        "value": "{color.gray.gray75}",
+        "value": "{reference.gray.gray75}",
         "type": "color"
       },
       "on-surface-1": {
-        "value": "{color.gray.gray300}",
+        "value": "{reference.gray.gray300}",
         "type": "color"
       },
       "on-surface-2": {
-        "value": "{color.gray.gray300}",
+        "value": "{reference.gray.gray300}",
         "type": "color"
       },
       "surface-inverse": {
-        "value": "{color.gray.gray700}",
+        "value": "{reference.gray.gray700}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{color.gray.gray400}",
+        "value": "{reference.gray.gray400}",
         "type": "color"
       }
     },
     "lines": {
       "low-contrast": {
-        "value": "{color.gray.gray700}",
+        "value": "{reference.gray.gray700}",
         "type": "color"
       },
       "default": {
-        "value": "{color.gray.gray500}",
+        "value": "{reference.gray.gray500}",
         "type": "color"
       },
       "high-contrast": {
-        "value": "{color.gray.gray300}",
+        "value": "{reference.gray.gray300}",
         "type": "color"
       }
     },
@@ -2416,57 +2416,57 @@
     "illustration": {
       "tangerine": {
         "light": {
-          "value": "{color.tangerine.tangerine200}",
+          "value": "{reference.tangerine.tangerine200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.tangerine.tangerine500}",
+          "value": "{reference.tangerine.tangerine500}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.tangerine.tangerine800}",
+          "value": "{reference.tangerine.tangerine800}",
           "type": "color"
         }
       },
       "dandelion": {
         "light": {
-          "value": "{color.dandelion.dandelion200}",
+          "value": "{reference.dandelion.dandelion200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.dandelion.dandelion500}",
+          "value": "{reference.dandelion.dandelion500}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.dandelion.dandelion700}",
+          "value": "{reference.dandelion.dandelion700}",
           "type": "color"
         }
       },
       "violet": {
         "light": {
-          "value": "{color.violet.violet200}",
+          "value": "{reference.violet.violet200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.violet.violet500}",
+          "value": "{reference.violet.violet500}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.violet.violet800}",
+          "value": "{reference.violet.violet800}",
           "type": "color"
         }
       },
       "emerald": {
         "light": {
-          "value": "{color.emerald.emerald200}",
+          "value": "{reference.emerald.emerald200}",
           "type": "color"
         },
         "default": {
-          "value": "{color.emerald.emerald500}",
+          "value": "{reference.emerald.emerald500}",
           "type": "color"
         },
         "dark": {
-          "value": "{color.emerald.emerald800}",
+          "value": "{reference.emerald.emerald800}",
           "type": "color"
         }
       }
