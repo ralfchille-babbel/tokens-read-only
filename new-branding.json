@@ -1137,6 +1137,10 @@
         "value": "{reference.white}",
         "type": "color"
       },
+      "default-shaded": {
+        "value": "{reference.gray.gray50}",
+        "type": "color"
+      },
       "hover": {
         "value": "{reference.gray.gray75}",
         "type": "color"
@@ -2895,7 +2899,7 @@
       "tertiary": {
         "background": {
           "default": {
-            "value": "{other.none}",
+            "value": "{light-accent.default-shaded}",
             "type": "color"
           },
           "hover": {
