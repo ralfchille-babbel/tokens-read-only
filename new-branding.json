@@ -1095,6 +1095,10 @@
         "value": "{reference.black}",
         "type": "color"
       },
+      "default-shaded": {
+        "value": "{reference.gray.gray900}",
+        "type": "color"
+      },
       "hover": {
         "value": "{reference.gray.gray800}",
         "type": "color"
@@ -2999,7 +3003,7 @@
       "tertiary-inverse": {
         "background": {
           "default": {
-            "value": "{other.none}",
+            "value": "{accent.default-shaded}",
             "type": "color"
           },
           "hover": {
