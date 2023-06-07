@@ -977,6 +977,16 @@
           "paragraphSpacing": "{font.paragraph-spacing.x4}"
         },
         "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{font.family.serif}",
+          "fontWeight": "{font.weight-serif.regular}",
+          "lineHeight": "{font.line-height.x14}",
+          "fontSize": "{font.font-size.x12}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
       }
     },
     "heading": {
@@ -1490,8 +1500,8 @@
         "value": {
           "fontFamily": "{font.family.serif}",
           "fontWeight": "{font.weight-serif.regular}",
-          "lineHeight": "{font.line-height.x13}",
-          "fontSize": "{font.font-size.x12}",
+          "lineHeight": "{font.line-height.x16}",
+          "fontSize": "{font.font-size.x14}",
           "paragraphSpacing": "{font.paragraph-spacing.x4}"
         },
         "type": "typography"
@@ -1500,8 +1510,8 @@
         "value": {
           "fontFamily": "{font.family.serif}",
           "fontWeight": "{font.weight-serif.regular}",
-          "lineHeight": "{font.line-height.x16}",
-          "fontSize": "{font.font-size.x14}",
+          "lineHeight": "{font.line-height.x18}",
+          "fontSize": "{font.font-size.x16}",
           "paragraphSpacing": "{font.paragraph-spacing.x4}"
         },
         "type": "typography"
