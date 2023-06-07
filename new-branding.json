@@ -371,6 +371,11 @@
         "type": "sizing",
         "description": "24rem"
       },
+      "x112": {
+        "value": "448px",
+        "type": "sizing",
+        "description": "28rem"
+      },
       "x128": {
         "value": "512px",
         "type": "sizing",
