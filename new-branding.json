@@ -2899,7 +2899,7 @@
       "tertiary": {
         "background": {
           "default": {
-            "value": "{light-accent.default-shaded}",
+            "value": "{light-accent.default}",
             "type": "color"
           },
           "hover": {
