@@ -1024,7 +1024,7 @@
       "default": {
         "value": "{reference.orange.orange500}",
         "type": "color",
-        "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text.\n\nDefault brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text.\n–––\n––– JS: light.theme.brand.default \n––– iOS: LightThemeBrandDefault \n––– Android: light_theme_brand_default "
+        "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text.\n\nDefault brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating text.\n\nTokens for: \n–– JS: light.theme.brand.default \n–– iOS: LightThemeBrandDefault \n–– Android: light_theme_brand_default "
       },
       "hover": {
         "value": "{reference.orange.orange600}",
