@@ -1067,7 +1067,7 @@
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-3": {
-        "value": "{reference.orange.orange200}",
+        "value": "{reference.orange.orange100}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
@@ -1919,7 +1919,7 @@
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-3": {
-        "value": "{reference.orange.orange600}",
+        "value": "{reference.orange.orange700}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
