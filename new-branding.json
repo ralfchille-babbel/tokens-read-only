@@ -1649,11 +1649,11 @@
       },
       "dandelion": {
         "light": {
-          "value": "{reference.dandelion.dandelion200}",
+          "value": "{reference.dandelion.dandelion400}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.dandelion.dandelion500}",
+          "value": "{reference.dandelion.dandelion600}",
           "type": "color"
         },
         "dark": {
