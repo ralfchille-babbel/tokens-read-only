@@ -1684,6 +1684,14 @@
           "value": "{reference.emerald.emerald800}",
           "type": "color"
         }
+      },
+      "on-surface-dark": {
+        "value": "{reference.gray.gray950}",
+        "type": "color"
+      },
+      "on-surface-light": {
+        "value": "{reference.white}",
+        "type": "color"
       }
     },
     "border": {
@@ -2532,6 +2540,14 @@
           "value": "{reference.emerald.emerald800}",
           "type": "color"
         }
+      },
+      "on-surface-dark": {
+        "value": "{reference.gray.gray950}",
+        "type": "color"
+      },
+      "on-surface-light": {
+        "value": "{reference.white}",
+        "type": "color"
       }
     },
     "border": {
