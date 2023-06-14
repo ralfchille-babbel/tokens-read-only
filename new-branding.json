@@ -1254,6 +1254,10 @@
         "value": "{reference.white}",
         "type": "color"
       },
+      "surface-lightened": {
+        "value": "{reference.white}",
+        "type": "color"
+      },
       "surface-default": {
         "value": "{reference.gray.gray50}",
         "type": "color"
@@ -2112,6 +2116,10 @@
       },
       "surface-default": {
         "value": "{reference.gray.gray900}",
+        "type": "color"
+      },
+      "surface-lightened": {
+        "value": "{reference.gray.gray950}",
         "type": "color"
       },
       "surface-darkened-1": {
