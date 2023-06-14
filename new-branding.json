@@ -1251,11 +1251,11 @@
         "type": "color"
       },
       "app-background": {
-        "value": "{reference.gray.gray50}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "surface-default": {
-        "value": "{reference.white}",
+        "value": "{reference.gray.gray50}",
         "type": "color"
       },
       "surface-darkened-1": {
@@ -1645,11 +1645,11 @@
       },
       "dandelion": {
         "light": {
-          "value": "{reference.dandelion.dandelion400}",
+          "value": "{reference.dandelion.dandelion200}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.dandelion.dandelion600}",
+          "value": "{reference.dandelion.dandelion500}",
           "type": "color"
         },
         "dark": {
@@ -1684,6 +1684,14 @@
           "value": "{reference.emerald.emerald800}",
           "type": "color"
         }
+      },
+      "on-surface-dark": {
+        "value": "{reference.gray.gray950}",
+        "type": "color"
+      },
+      "on-surface-light": {
+        "value": "{reference.white}",
+        "type": "color"
       }
     },
     "border": {
@@ -2532,6 +2540,14 @@
           "value": "{reference.emerald.emerald800}",
           "type": "color"
         }
+      },
+      "on-surface-dark": {
+        "value": "{reference.gray.gray950}",
+        "type": "color"
+      },
+      "on-surface-light": {
+        "value": "{reference.white}",
+        "type": "color"
       }
     },
     "border": {
