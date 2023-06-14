@@ -1546,11 +1546,11 @@
         "type": "color"
       },
       "surface-inverse": {
-        "value": "{reference.gray.gray700}",
+        "value": "{reference.gray.gray900}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{reference.gray.gray400}",
+        "value": "{reference.gray.gray700}",
         "type": "color"
       }
     },
@@ -3082,7 +3082,7 @@
       "tertiary-inverse": {
         "background": {
           "default": {
-            "value": "{accent.default-shaded}",
+            "value": "{other.none}",
             "type": "color"
           },
           "hover": {
