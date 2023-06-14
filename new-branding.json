@@ -1124,7 +1124,7 @@
         "description": "Active state of the default brand color. Only us in interactive elements that provide an active state."
       },
       "on-default": {
-        "value": "{reference.gray.gray25}",
+        "value": "{reference.white}",
         "type": "color",
         "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
       },
@@ -1134,12 +1134,12 @@
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-default": {
-        "value": "{reference.orange.orange50}",
+        "value": "{reference.orange.orange100}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-darkened": {
-        "value": "{reference.orange.orange100}",
+        "value": "{reference.orange.orange150}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
@@ -1161,7 +1161,7 @@
     },
     "brand-inverse": {
       "default": {
-        "value": "{reference.gray.gray25}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "hover": {
@@ -1191,19 +1191,19 @@
         "type": "color"
       },
       "on-default": {
-        "value": "{reference.gray.gray25}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "surface-lightened": {
-        "value": "{reference.gray.gray25}",
-        "type": "color"
-      },
-      "surface-default": {
         "value": "{reference.gray.gray50}",
         "type": "color"
       },
-      "surface-darkened": {
+      "surface-default": {
         "value": "{reference.gray.gray100}",
+        "type": "color"
+      },
+      "surface-darkened": {
+        "value": "{reference.gray.gray150}",
         "type": "color"
       },
       "on-surface-default": {
@@ -1221,7 +1221,7 @@
     },
     "accent-inverse": {
       "default": {
-        "value": "{reference.gray.gray25}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "hover": {
@@ -1254,12 +1254,8 @@
         "value": "{reference.gray.gray50}",
         "type": "color"
       },
-      "surface-lightened": {
-        "value": "{reference.white}",
-        "type": "color"
-      },
       "surface-default": {
-        "value": "{reference.gray.gray50}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "surface-darkened-1": {
