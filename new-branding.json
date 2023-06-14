@@ -1129,7 +1129,7 @@
         "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
       },
       "surface-lightened": {
-        "value": "{reference.orange.orange25}",
+        "value": "{reference.orange.orange50}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
@@ -1251,11 +1251,11 @@
         "type": "color"
       },
       "app-background": {
-        "value": "{reference.white}",
+        "value": "{reference.gray.gray50}",
         "type": "color"
       },
       "surface-lightened": {
-        "value": "{reference.gray.gray25}",
+        "value": "{reference.white}",
         "type": "color"
       },
       "surface-default": {
@@ -1564,7 +1564,7 @@
         "type": "color"
       },
       "high-contrast": {
-        "value": "{reference.gray.gray300}",
+        "value": "{reference.gray.gray400}",
         "type": "color"
       }
     },
@@ -1995,29 +1995,25 @@
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
-      "on-surface-1": {
+      "on-surface-default": {
         "value": "{reference.orange.orange50}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       },
-      "on-surface-2": {
+      "on-surface-subdued-1": {
         "value": "{reference.orange.orange100}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       },
-      "on-surface-3": {
-        "value": "{reference.orange.orange200}",
+      "on-surface-subdued-2": {
+        "value": "{reference.orange.orange150}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       }
     },
-    "light-brand": {
+    "brand-inverse": {
       "default": {
         "value": "{reference.white}",
-        "type": "color"
-      },
-      "default-transparent": {
-        "value": "{reference.transparent}",
         "type": "color"
       },
       "hover": {
@@ -2025,7 +2021,7 @@
         "type": "color"
       },
       "active": {
-        "value": "{reference.orange.orange75}",
+        "value": "{reference.orange.orange100}",
         "type": "color"
       },
       "on-default": {
@@ -2047,41 +2043,37 @@
         "type": "color"
       },
       "on-default": {
-        "value": "{reference.black}",
+        "value": "{reference.gray.gray950}",
         "type": "color"
       },
-      "surface-1": {
+      "surface-lightened": {
+        "value": "{reference.gray.gray900}",
+        "type": "color"
+      },
+      "surface-default": {
+        "value": "{reference.gray.gray850}",
+        "type": "color"
+      },
+      "surface-darkened": {
         "value": "{reference.gray.gray800}",
         "type": "color"
       },
-      "surface-2": {
-        "value": "{reference.gray.gray700}",
-        "type": "color"
-      },
-      "surface-3": {
-        "value": "{reference.gray.gray600}",
-        "type": "color"
-      },
-      "on-surface-1": {
+      "on-surface-default": {
         "value": "{reference.white}",
         "type": "color"
       },
-      "on-surface-2": {
+      "on-surface-subdued-1": {
         "value": "{reference.gray.gray100}",
         "type": "color"
       },
-      "on-surface-3": {
-        "value": "{reference.gray.gray500}",
+      "on-surface-subdued-2": {
+        "value": "{reference.gray.gray300}",
         "type": "color"
       }
     },
-    "light-accent": {
+    "accent-inverse": {
       "default": {
         "value": "{reference.black}",
-        "type": "color"
-      },
-      "default-transparent": {
-        "value": "{reference.transparent}",
         "type": "color"
       },
       "hover": {
@@ -2098,43 +2090,43 @@
       }
     },
     "neutral": {
-      "on-surface-1": {
+      "on-surface-default": {
         "value": "{reference.white}",
         "type": "color"
       },
-      "on-surface-2": {
+      "on-surface-subdued-1": {
         "value": "{reference.gray.gray100}",
         "type": "color"
       },
-      "on-surface-3": {
+      "on-surface-subdued-2": {
         "value": "{reference.gray.gray300}",
         "type": "color"
       },
       "app-background": {
-        "value": "{reference.black}",
+        "value": "{reference.gray.gray950}",
         "type": "color"
       },
-      "surface-1": {
+      "surface-lightened": {
         "value": "{reference.gray.gray900}",
         "type": "color"
       },
-      "surface-2": {
-        "value": "{reference.gray.gray800}",
+      "surface-default": {
+        "value": "{reference.gray.gray850}",
         "type": "color"
       },
-      "surface-3": {
-        "value": "{reference.gray.gray700}",
+      "surface-darkened-1": {
+        "value": "{reference.gray.gray750}",
         "type": "color"
       },
-      "surface-4": {
-        "value": "{reference.gray.gray600}",
+      "surface-darkenend-2": {
+        "value": "{reference.gray.gray650}",
         "type": "color"
       },
-      "surface-inverse-1": {
+      "surface-inverse-default": {
         "value": "{reference.white}",
         "type": "color"
       },
-      "surface-inverse-2": {
+      "surface-inverse-lightened": {
         "value": "{reference.gray.gray100}",
         "type": "color"
       },
