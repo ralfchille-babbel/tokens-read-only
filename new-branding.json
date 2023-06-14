@@ -1645,11 +1645,11 @@
       },
       "dandelion": {
         "light": {
-          "value": "{reference.dandelion.dandelion200}",
+          "value": "{reference.dandelion.dandelion400}",
           "type": "color"
         },
         "default": {
-          "value": "{reference.dandelion.dandelion500}",
+          "value": "{reference.dandelion.dandelion600}",
           "type": "color"
         },
         "dark": {
@@ -1684,14 +1684,6 @@
           "value": "{reference.emerald.emerald800}",
           "type": "color"
         }
-      },
-      "on-surface-dark": {
-        "value": "{reference.gray.gray950}",
-        "type": "color"
-      },
-      "on-surface-light": {
-        "value": "{reference.white}",
-        "type": "color"
       }
     },
     "border": {
@@ -2540,14 +2532,6 @@
           "value": "{reference.emerald.emerald800}",
           "type": "color"
         }
-      },
-      "on-surface-dark": {
-        "value": "{reference.gray.gray950}",
-        "type": "color"
-      },
-      "on-surface-light": {
-        "value": "{reference.white}",
-        "type": "color"
       }
     },
     "border": {
