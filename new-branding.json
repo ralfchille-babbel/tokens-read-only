@@ -1998,7 +1998,7 @@
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
-      "surface-darkenend": {
+      "surface-darkened": {
         "value": "{reference.orange.orange700}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
