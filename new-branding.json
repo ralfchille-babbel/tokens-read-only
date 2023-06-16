@@ -2807,7 +2807,7 @@
           "type": "color"
         }
       },
-      "default-semi-transparent-bg": {
+      "default-translucent": {
         "bg": {
           "value": "#FFFFFFA6",
           "type": "color"
