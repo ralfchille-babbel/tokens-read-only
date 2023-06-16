@@ -2506,17 +2506,23 @@
   },
   "badge": {
     "badge": {
-      "success": {
+      "default": {
         "bg": {
-          "value": "{feedback.success.surface}",
+          "value": "{neutral.surface-default}",
           "type": "color"
         },
         "fg": {
-          "value": "{feedback.success.on-surface}",
+          "value": "{neutral.on-surface-default}",
+          "type": "color"
+        }
+      },
+      "default-lightened": {
+        "bg": {
+          "value": "{neutral.surface-lightened}",
           "type": "color"
         },
-        "border": {
-          "value": "{feedback.success.on-surface}",
+        "fg": {
+          "value": "{neutral.on-surface-default}",
           "type": "color"
         }
       },
@@ -2530,16 +2536,6 @@
           "type": "color"
         }
       },
-      "default": {
-        "bg": {
-          "value": "{neutral.surface-default}",
-          "type": "color"
-        },
-        "fg": {
-          "value": "{neutral.on-surface-default}",
-          "type": "color"
-        }
-      },
       "default-translucent": {
         "bg": {
           "value": "#FFFFFFA6",
@@ -2550,17 +2546,17 @@
           "type": "color"
         }
       },
-      "unavailable": {
+      "success": {
         "bg": {
-          "value": "{feedback.attention.surface}",
+          "value": "{feedback.success.surface}",
           "type": "color"
         },
         "fg": {
-          "value": "{feedback.attention.on-surface}",
+          "value": "{feedback.success.on-surface}",
           "type": "color"
         },
         "border": {
-          "value": "{feedback.attention.on-surface}",
+          "value": "{feedback.success.on-surface}",
           "type": "color"
         }
       },
@@ -2578,13 +2574,17 @@
           "type": "color"
         }
       },
-      "default-lightened-bg": {
+      "failure": {
         "bg": {
-          "value": "{neutral.surface-lightened}",
+          "value": "{feedback.attention.surface}",
           "type": "color"
         },
         "fg": {
-          "value": "{neutral.on-surface-default}",
+          "value": "{feedback.attention.on-surface}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{feedback.attention.on-surface}",
           "type": "color"
         }
       }
