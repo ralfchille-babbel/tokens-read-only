@@ -1149,12 +1149,12 @@
         "description": "Use as forground color on brand.surface-*."
       },
       "on-surface-subdued-1": {
-        "value": "{reference.orange.orange850}",
+        "value": "{reference.orange.orange800}",
         "type": "color",
         "description": "Use as forground color on brand.surface-*."
       },
       "on-surface-subdued-2": {
-        "value": "{reference.orange.orange750}",
+        "value": "{reference.orange.orange650}",
         "type": "color",
         "description": "Use as forground color on brand.surface-*."
       }
@@ -2018,7 +2018,7 @@
         "description": "Use as forground color in the context of learners success."
       },
       "on-surface-subdued-2": {
-        "value": "{reference.orange.orange150}",
+        "value": "{reference.orange.orange200}",
         "type": "color",
         "description": "Use as forground color in the context of learners success."
       }
