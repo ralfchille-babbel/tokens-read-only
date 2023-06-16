@@ -1993,17 +1993,17 @@
         "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
       },
       "surface-lightened": {
-        "value": "{reference.orange.orange900}",
+        "value": "{reference.orange.orange800}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-default": {
-        "value": "{reference.orange.orange850}",
+        "value": "{reference.orange.orange700}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
       "surface-darkened": {
-        "value": "{reference.orange.orange700}",
+        "value": "{reference.orange.orange600}",
         "type": "color",
         "description": "Indicate surfaces in context with learners success."
       },
@@ -2102,6 +2102,18 @@
       }
     },
     "neutral": {
+      "on-surface-default": {
+        "value": "{reference.white}",
+        "type": "color"
+      },
+      "on-surface-subdued-1": {
+        "value": "{reference.gray.gray100}",
+        "type": "color"
+      },
+      "on-surface-subdued-2": {
+        "value": "{reference.gray.gray300}",
+        "type": "color"
+      },
       "app-background": {
         "value": "{reference.gray.gray950}",
         "type": "color"
@@ -2120,18 +2132,6 @@
       },
       "surface-darkened-2": {
         "value": "{reference.gray.gray700}",
-        "type": "color"
-      },
-      "on-surface-default": {
-        "value": "{reference.white}",
-        "type": "color"
-      },
-      "on-surface-subdued-1": {
-        "value": "{reference.gray.gray100}",
-        "type": "color"
-      },
-      "on-surface-subdued-2": {
-        "value": "{reference.gray.gray300}",
         "type": "color"
       },
       "surface-inverse-default": {
