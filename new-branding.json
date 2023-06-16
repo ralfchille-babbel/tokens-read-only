@@ -2508,7 +2508,7 @@
     "badge": {
       "default": {
         "bg": {
-          "value": "{neutral.surface-default}",
+          "value": "{neutral.surface-darkened-1}",
           "type": "color"
         },
         "fg": {
