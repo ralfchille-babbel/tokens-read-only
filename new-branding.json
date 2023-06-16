@@ -1286,7 +1286,7 @@
     "feedback": {
       "success": {
         "surface": {
-          "value": "{reference.green.green200}",
+          "value": "{reference.green.green100}",
           "type": "color"
         },
         "default": {
@@ -1294,13 +1294,13 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.green.green800}",
+          "value": "{reference.green.green700}",
           "type": "color"
         }
       },
       "warning": {
         "surface": {
-          "value": "{reference.yellow.yellow200}",
+          "value": "{reference.yellow.yellow100}",
           "type": "color"
         },
         "default": {
@@ -1308,13 +1308,13 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.yellow.yellow800}",
+          "value": "{reference.yellow.yellow700}",
           "type": "color"
         }
       },
       "attention": {
         "surface": {
-          "value": "{reference.red.red200}",
+          "value": "{reference.red.red100}",
           "type": "color"
         },
         "default": {
@@ -1322,7 +1322,7 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.red.red800}",
+          "value": "{reference.red.red600}",
           "type": "color"
         }
       },
@@ -2777,73 +2777,73 @@
   },
   "badge": {
     "badge": {
-      "available": {
-        "background": {
+      "success": {
+        "bg": {
           "value": "{feedback.success.surface}",
           "type": "color"
         },
-        "foreground": {
+        "fg": {
           "value": "{feedback.success.on-surface}",
           "type": "color"
         }
       },
-      "important": {
-        "background": {
-          "value": "{accent.surface-default}",
+      "default-inverse": {
+        "bg": {
+          "value": "{neutral.surface-inverse-default}",
           "type": "color"
         },
-        "foreground": {
-          "value": "{accent.on-surface-default}",
-          "type": "color"
-        }
-      },
-      "information": {
-        "background": {
-          "value": "{neutral.surface-darkened-2}",
-          "type": "color"
-        },
-        "foreground": {
-          "value": "{neutral.on-surface-default}",
-          "type": "color"
-        }
-      },
-      "locked": {
-        "background": {
-          "value": "{neutral.surface-inverse-lightened}",
-          "type": "color"
-        },
-        "foreground": {
+        "fg": {
           "value": "{neutral.on-surface-inverse}",
           "type": "color"
         }
       },
-      "premium": {
-        "background": {
-          "value": "{feedback.premium.surface}",
+      "default": {
+        "bg": {
+          "value": "{neutral.surface-default}",
           "type": "color"
         },
-        "foreground": {
-          "value": "{feedback.premium.on-surface}",
+        "fg": {
+          "value": "{neutral.on-surface-default}",
+          "type": "color"
+        }
+      },
+      "default-semi-transparent-bg": {
+        "bg": {
+          "value": "#FFFFFFA6",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{neutral.on-surface-default}",
           "type": "color"
         }
       },
       "unavailable": {
-        "background": {
+        "bg": {
           "value": "{feedback.attention.surface}",
           "type": "color"
         },
-        "foreground": {
+        "fg": {
           "value": "{feedback.attention.on-surface}",
           "type": "color"
         }
       },
       "warning": {
-        "background": {
+        "bg": {
           "value": "{feedback.warning.surface}",
           "type": "color"
         },
-        "foreground": {
+        "fg": {
           "value": "{feedback.warning.on-surface}",
+          "type": "color"
+        }
+      },
+      "default-lightened-bg": {
+        "bg": {
+          "value": "{neutral.surface-lightened}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{neutral.on-surface-default}",
           "type": "color"
         }
       }
