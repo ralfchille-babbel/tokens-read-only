@@ -1556,15 +1556,15 @@
     },
     "lines": {
       "low-contrast": {
-        "value": "{reference.gray.gray50}",
-        "type": "color"
-      },
-      "default": {
         "value": "{reference.gray.gray150}",
         "type": "color"
       },
+      "default": {
+        "value": "{reference.gray.gray250}",
+        "type": "color"
+      },
       "high-contrast": {
-        "value": "{reference.gray.gray400}",
+        "value": "{reference.gray.gray450}",
         "type": "color"
       }
     },
@@ -2416,15 +2416,15 @@
     },
     "lines": {
       "low-contrast": {
-        "value": "{reference.gray.gray750}",
+        "value": "{reference.gray.gray800}",
         "type": "color"
       },
       "default": {
-        "value": "{reference.gray.gray600}",
+        "value": "{reference.gray.gray650}",
         "type": "color"
       },
       "high-contrast": {
-        "value": "{reference.gray.gray500}",
+        "value": "{reference.gray.gray550}",
         "type": "color"
       }
     },
