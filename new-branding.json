@@ -2102,18 +2102,6 @@
       }
     },
     "neutral": {
-      "on-surface-default": {
-        "value": "{reference.white}",
-        "type": "color"
-      },
-      "on-surface-subdued-1": {
-        "value": "{reference.gray.gray100}",
-        "type": "color"
-      },
-      "on-surface-subdued-2": {
-        "value": "{reference.gray.gray300}",
-        "type": "color"
-      },
       "app-background": {
         "value": "{reference.gray.gray950}",
         "type": "color"
@@ -2132,6 +2120,18 @@
       },
       "surface-darkened-2": {
         "value": "{reference.gray.gray700}",
+        "type": "color"
+      },
+      "on-surface-default": {
+        "value": "{reference.white}",
+        "type": "color"
+      },
+      "on-surface-subdued-1": {
+        "value": "{reference.gray.gray100}",
+        "type": "color"
+      },
+      "on-surface-subdued-2": {
+        "value": "{reference.gray.gray300}",
         "type": "color"
       },
       "surface-inverse-default": {
