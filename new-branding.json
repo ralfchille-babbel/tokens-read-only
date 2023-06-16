@@ -507,11 +507,11 @@
           "type": "color"
         },
         "gray50": {
-          "value": "#F7F6F5",
+          "value": "#F6F4EF",
           "type": "color"
         },
         "gray100": {
-          "value": "#EFEEEC",
+          "value": "#efeeeb",
           "type": "color"
         },
         "gray150": {
