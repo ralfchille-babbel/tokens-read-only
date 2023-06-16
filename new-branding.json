@@ -1530,27 +1530,27 @@
     },
     "disabled": {
       "default": {
-        "value": "{reference.gray.gray100}",
+        "value": "{reference.gray.gray200}",
         "type": "color"
       },
       "surface": {
-        "value": "{reference.gray.gray50}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "on-surface-default": {
-        "value": "{reference.gray.gray400}",
+        "value": "{reference.gray.gray550}",
         "type": "color"
       },
       "on-surface-subdued": {
-        "value": "{reference.gray.gray300}",
+        "value": "{reference.gray.gray400}",
         "type": "color"
       },
       "surface-inverse": {
-        "value": "{reference.gray.gray900}",
+        "value": "{reference.gray.gray700}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{reference.gray.gray700}",
+        "value": "{reference.gray.gray550}",
         "type": "color"
       }
     },
