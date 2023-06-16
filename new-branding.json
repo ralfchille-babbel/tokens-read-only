@@ -1146,17 +1146,17 @@
       "on-surface-default": {
         "value": "{reference.orange.orange900}",
         "type": "color",
-        "description": "Use as forground color on brand.surface-*."
+        "description": "Use as forground color in context with learners success."
       },
       "on-surface-subdued-1": {
         "value": "{reference.orange.orange800}",
         "type": "color",
-        "description": "Use as forground color on brand.surface-*."
+        "description": "Use as forground color in context with learners success."
       },
       "on-surface-subdued-2": {
         "value": "{reference.orange.orange650}",
         "type": "color",
-        "description": "Use as forground color on brand.surface-*."
+        "description": "Use as forground color in context with learners success."
       }
     },
     "brand-inverse": {
