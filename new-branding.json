@@ -1890,11 +1890,11 @@
         "type": "color"
       },
       "surface-default": {
-        "value": "{reference.gray.gray900}",
+        "value": "{reference.gray.gray850}",
         "type": "color"
       },
       "surface-darkened-1": {
-        "value": "{reference.gray.gray800}",
+        "value": "{reference.gray.gray750}",
         "type": "color"
       },
       "surface-darkened-2": {
