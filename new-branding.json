@@ -2157,6 +2157,10 @@
       "focus": {
         "value": "{reference.orange.orange500}",
         "type": "color"
+      },
+      "overlay-background": {
+        "value": "{reference.black}",
+        "type": "color"
       }
     },
     "disabled": {
