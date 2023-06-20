@@ -2176,7 +2176,7 @@
         "value": "{reference.gray.gray600}",
         "type": "color"
       },
-      "on-surface-2": {
+      "on-surface-subdued": {
         "value": "{reference.gray.gray700}",
         "type": "color"
       },
