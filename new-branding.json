@@ -1294,7 +1294,7 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.green.green700}",
+          "value": "{reference.green.green800}",
           "type": "color"
         }
       },
@@ -1308,7 +1308,7 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.yellow.yellow700}",
+          "value": "{reference.yellow.yellow900}",
           "type": "color"
         }
       },
@@ -1322,7 +1322,7 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.red.red600}",
+          "value": "{reference.red.red700}",
           "type": "color"
         }
       },
@@ -1917,7 +1917,7 @@
     "feedback": {
       "success": {
         "surface": {
-          "value": "{reference.green.green200}",
+          "value": "{reference.green.green900}",
           "type": "color"
         },
         "default": {
@@ -1925,13 +1925,13 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.green.green800}",
+          "value": "{reference.green.green200}",
           "type": "color"
         }
       },
       "warning": {
         "surface": {
-          "value": "{reference.yellow.yellow200}",
+          "value": "{reference.yellow.yellow900}",
           "type": "color"
         },
         "default": {
@@ -1939,13 +1939,13 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.yellow.yellow800}",
+          "value": "{reference.yellow.yellow200}",
           "type": "color"
         }
       },
       "attention": {
         "surface": {
-          "value": "{reference.red.red200}",
+          "value": "{reference.red.red800}",
           "type": "color"
         },
         "default": {
@@ -1953,7 +1953,7 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.red.red800}",
+          "value": "{reference.red.red200}",
           "type": "color"
         }
       },
