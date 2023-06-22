@@ -3163,13 +3163,19 @@
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
       "name": "Light Mode",
       "selectedTokenSets": {},
-      "$figmaStyleReferences": {}
+      "$figmaStyleReferences": {},
+      "$figmaCollectionId": "VariableCollectionId:2953:7052",
+      "$figmaModeId": "2953:0",
+      "$figmaVariableReferences": {}
     },
     {
       "id": "289acfd682c0a1c0c09463f4cb684caca1a270f3",
       "name": "Dark Mode",
       "selectedTokenSets": {},
-      "$figmaStyleReferences": {}
+      "$figmaStyleReferences": {},
+      "$figmaCollectionId": "VariableCollectionId:2953:7053",
+      "$figmaModeId": "2953:1",
+      "$figmaVariableReferences": {}
     }
   ],
   "$metadata": {
