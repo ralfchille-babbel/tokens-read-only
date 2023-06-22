@@ -1294,7 +1294,7 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.green.green900}",
+          "value": "{reference.green.green800}",
           "type": "color"
         }
       },
@@ -1308,7 +1308,7 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.yellow.yellow900}",
+          "value": "{reference.yellow.yellow800}",
           "type": "color"
         }
       },
@@ -1322,7 +1322,7 @@
           "type": "color"
         },
         "on-surface": {
-          "value": "{reference.red.red800}",
+          "value": "{reference.red.red700}",
           "type": "color"
         }
       },
