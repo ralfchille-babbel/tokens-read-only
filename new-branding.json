@@ -1213,11 +1213,11 @@
         "type": "color"
       },
       "hover": {
-        "value": "{reference.gray.gray50}",
+        "value": "{reference.gray.gray100}",
         "type": "color"
       },
       "active": {
-        "value": "{reference.gray.gray100}",
+        "value": "{reference.gray.gray200}",
         "type": "color"
       },
       "on-default": {
@@ -1538,11 +1538,11 @@
         "type": "color"
       },
       "surface-inverse": {
-        "value": "{reference.gray.gray700}",
+        "value": "{reference.gray.gray800}",
         "type": "color"
       },
       "on-surface-inverse": {
-        "value": "{reference.gray.gray550}",
+        "value": "{reference.gray.gray650}",
         "type": "color"
       }
     },
@@ -2906,7 +2906,7 @@
       "tertiary": {
         "bg": {
           "default": {
-            "value": "{accent-inverse.default}",
+            "value": "{other.none}",
             "type": "color"
           },
           "hover": {
