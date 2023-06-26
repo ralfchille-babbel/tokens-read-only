@@ -1325,7 +1325,7 @@
           "x": "0",
           "y": "0",
           "blur": "0",
-          "spread": "",
+          "spread": "0",
           "color": "rgba(0,0,0,0)",
           "type": "dropShadow"
         },
@@ -1337,7 +1337,7 @@
             "x": "0",
             "y": "1",
             "blur": "1",
-            "spread": "",
+            "spread": "0",
             "color": "rgba(0,0,0,0.05)",
             "type": "dropShadow"
           }
@@ -1350,7 +1350,7 @@
             "x": "0",
             "y": "1",
             "blur": "2",
-            "spread": "",
+            "spread": "0",
             "color": "rgba(0,0,0,0.1)",
             "type": "dropShadow"
           },
@@ -1358,7 +1358,7 @@
             "x": "0",
             "y": "1",
             "blur": "1",
-            "spread": "",
+            "spread": "0",
             "color": "rgba(0,0,0,0.06)",
             "type": "dropShadow"
           }
@@ -1371,7 +1371,7 @@
             "x": "0",
             "y": "4",
             "blur": "3",
-            "spread": "",
+            "spread": "0",
             "color": "rgba(0,0,0,0.07)",
             "type": "dropShadow"
           },
@@ -1379,7 +1379,7 @@
             "x": "0",
             "y": "2",
             "blur": "2",
-            "spread": "",
+            "spread": "0",
             "color": "rgba(0,0,0,0.06)",
             "type": "dropShadow"
           }
@@ -1392,7 +1392,7 @@
             "x": "0",
             "y": "13",
             "blur": "12",
-            "spread": "",
+            "spread": "0",
             "color": "rgba(0,0,0,0.04)",
             "type": "dropShadow"
           },
@@ -1400,7 +1400,7 @@
             "x": "0",
             "y": "4",
             "blur": "8",
-            "spread": "",
+            "spread": "0",
             "color": "rgba(0,0,0,0.09)",
             "type": "dropShadow"
           }
@@ -1413,7 +1413,7 @@
             "x": "0",
             "y": "25",
             "blur": "25",
-            "spread": "",
+            "spread": "0",
             "color": "rgba(0,0,0,0.15)",
             "type": "dropShadow"
           }
@@ -2222,108 +2222,6 @@
           "style": "solid"
         },
         "type": "border"
-      }
-    },
-    "elevation-test": {
-      "none": {
-        "value": {
-          "x": "0",
-          "y": "0",
-          "blur": "0",
-          "spread": "",
-          "color": "rgba(0,0,0,0)",
-          "type": "dropShadow"
-        },
-        "type": "boxShadow"
-      },
-      "low": {
-        "value": [
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "1",
-            "spread": "",
-            "color": "rgba(0,0,0,0.05)",
-            "type": "dropShadow"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "default": {
-        "value": [
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "2",
-            "spread": "",
-            "color": "rgba(0,0,0,0.1)",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "1",
-            "blur": "1",
-            "spread": "",
-            "color": "rgba(0,0,0,0.06)",
-            "type": "dropShadow"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "medium": {
-        "value": [
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "3",
-            "spread": "",
-            "color": "rgba(0,0,0,0.07)",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "2",
-            "blur": "2",
-            "spread": "",
-            "color": "rgba(0,0,0,0.06)",
-            "type": "dropShadow"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "high": {
-        "value": [
-          {
-            "x": "0",
-            "y": "13",
-            "blur": "12",
-            "spread": "",
-            "color": "rgba(0,0,0,0.04)",
-            "type": "dropShadow"
-          },
-          {
-            "x": "0",
-            "y": "4",
-            "blur": "8",
-            "spread": "",
-            "color": "rgba(0,0,0,0.09)",
-            "type": "dropShadow"
-          }
-        ],
-        "type": "boxShadow"
-      },
-      "very-high": {
-        "value": [
-          {
-            "x": "0",
-            "y": "25",
-            "blur": "25",
-            "spread": "",
-            "color": "rgba(0,0,0,0.15)",
-            "type": "dropShadow"
-          }
-        ],
-        "type": "boxShadow"
       }
     }
   },
@@ -3150,7 +3048,7 @@
     },
     "layer-elevation": {
       "default": {
-        "value": "{elevation-test.high}",
+        "value": "{elevation.high}",
         "type": "boxShadow"
       }
     }
@@ -3261,17 +3159,17 @@
         "display.small": "S:ee8a855e37c9cdac674f4e81e33d77e6933460c0,",
         "display.default": "S:dd39d2f76874c2a24dd23d4e344b7cb1cf8e7124,",
         "display.large": "S:bfcce7f668119690698db5f3f1708bcb0f577cc4,",
-        "elevation.none": "S:4ca30fda955dd858ba3c9f8223c8f1853cac4784,",
-        "elevation.low": "S:3e2bba918a701ebe7fc9b70050312e9a7e9ecfc6,",
-        "elevation.high": "S:30bb4d70c3c370ff160882c5de34be0ff3264494,",
+        "elevation.none": "S:fad78639a2a4d5a86aff46eef7a5914cfe2f420c,",
+        "elevation.low": "S:0fa258f777f08c7200fae031aac7ab8ebfb4a2ca,",
+        "elevation.high": "S:e3e5a37fce2fce5593edd11f8843db3e5256142c,",
         "text-strong.xsmall": "S:6b5823fc270aa8854539fcb8411155b73c59d7f2,",
         "text-strong.small": "S:7e7c3caa287029cb04be5aa2782f9cfa8db0ba1c,",
         "text-strong.default": "S:c75f1a2a581db49a152490ec6f66cc485577f182,",
         "text-strong.large": "S:0301ba8301a4f011e70bd81a756eb4eb369ccdb9,",
         "text-strong.xlarge": "S:071935d5658769b53b10da5108e406937dadeee5,",
-        "elevation.default": "S:9959bccbc3131887169b96351b5af1fbad04272d,",
-        "elevation.medium": "S:e418d738b8b617f8c5a4c6fbbe712856444667fe,",
-        "elevation.very-high": "S:273434a71b6d5635c1e2c730ad4d30c79c45d50b,"
+        "elevation.default": "S:66e9f17d2c45446151204823a843b176845c8bac,",
+        "elevation.medium": "S:add008caa5a9ae4ce8abbf89d058658251e07271,",
+        "elevation.very-high": "S:b8b951237b2ef530e8ca4a80557f2ce653014783,"
       },
       "selectedTokenSets": {
         "reference": "source",
@@ -3402,24 +3300,120 @@
       "id": "289acfd682c0a1c0c09463f4cb684caca1a270f3",
       "name": "Dark Mode",
       "$figmaStyleReferences": {
-        "elevation.none": "S:79fbc102326a3e9e51be1d4abac55bc2efdb1d52,",
-        "elevation.low": "S:9b4b6022b3895ab8301f9957eab94c30a3d6c1f5,",
-        "elevation.default": "S:8aecdc72b07f2c6b6bf6fba47c077eb11049ba4a,",
-        "elevation.medium": "S:2542f039c95dba4fe7f0c7965ff4c5d947c3de38,",
-        "elevation.high": "S:bececa98ea724a838edfaa90ca2fc8da2d86d693,",
-        "elevation.very-high": "S:65d22bd20eccc35c370593b4aaab775e2491ce17,",
+        "elevation.none": "S:fad78639a2a4d5a86aff46eef7a5914cfe2f420c,",
         "elevation1.none": "S:98b173e54876c0b3568908ce9a02fdb22ee04b56,",
         "elevation1.low": "S:dbe0c95acfe4a1cd5acb4b9826a96e72a173929f,",
         "elevation1.default": "S:9f77e627ddf7f18ea340b52a399633ebbd97a25b,",
         "elevation1.medium": "S:30164e7f629e0b74607cfe7204be392585817c38,",
         "elevation1.high": "S:bf5978717fc8be900ad38441e3f852344e8702ac,",
         "elevation1.very-high": "S:bc47310811d6ba316cb80bfadcd699c661e1f646,",
-        "elevation-test.none": "S:4d2c89c8210795c917d51e63a54b58d83e73fdb2,",
-        "elevation-test.low": "S:b1765f7e40de1b753edac7f57bdc7de99f1e80b8,",
-        "elevation-test.default": "S:07b0c1f8fb0b7dd393f5c469eae3e26901ad2978,",
-        "elevation-test.medium": "S:de9ae7193f08d61d1b815c74ea346d12c772f123,",
-        "elevation-test.high": "S:73949221ebf1f99d4c6ead18680ae655e5b4d901,",
-        "elevation-test.very-high": "S:0e958d44014d015fd7f31ca2f4642f39bf7c2208,"
+        "elevation-test.none": "S:31be9562d1ff0831c00468c600fb29e6b0baa2de,",
+        "elevation-test.low": "S:a0610164309d2c0283246f0b818c30c1beb123c5,",
+        "elevation-test.default": "S:ab8a397015cf21e2c242b5f563d91c8e6abdcbe4,",
+        "elevation-test.medium": "S:95f73037012b0668986f0982a4b6726e2f9eb607,",
+        "elevation-test.high": "S:25b36fdcde500bf0ae3af1f5b24f861752525aaf,",
+        "elevation-test.very-high": "S:68b3b488ca04a512c2160db1aaf283c8d52cc9a8,",
+        "brand.default": "S:a6ef0d180578d3f196b601ccb7dfaa88ee600851,",
+        "brand.hover": "S:cf02543b87b7732868d5cc777aaab65d21f9cc8c,",
+        "brand.active": "S:15425dfd7782edfbe69135813c1b4ac70af476ef,",
+        "brand.on-default": "S:34e97fff949e83343b27c6c8d06137794b79800b,",
+        "brand.surface-lightened": "S:0a4dba637e6707cb84b22f739168d98b6c438571,",
+        "brand.surface-default": "S:0ce30572356f130ec55eda92efda9323e731b3a3,",
+        "brand.surface-darkened": "S:7c7638ac395d67089ea3c44e2eb5cfa5947ccdd7,",
+        "brand.on-surface-default": "S:ab509dd60dbb2102a09d1d4f110e724ed0fec6ad,",
+        "brand.on-surface-subdued-1": "S:f81d6add02876dc5dd735e8c48736071d7b9bdfd,",
+        "brand.on-surface-subdued-2": "S:b604041560bff656a3f30237768c9fdb16204a40,",
+        "brand-inverse.default": "S:82bae3530b2226577d91c5a1ae2929fcf7092a48,",
+        "brand-inverse.hover": "S:231f3433df74b6595fc930bacde11bd3e9eada55,",
+        "brand-inverse.active": "S:568669facf440e3b0965b9893376abe45797509d,",
+        "brand-inverse.on-default": "S:d054ce9aec9d37a06cb15ad45e344c2dfaf86a5f,",
+        "accent.default": "S:d003801a908372c50dbab5d97b39f8de8ac36927,",
+        "accent.hover": "S:9c2f1a4b060a0ca3591a2b79f83d7b2a6b443f0e,",
+        "accent.active": "S:1f9ee6736db101245514b14b48863a9273d0036a,",
+        "accent.on-default": "S:bb25bce16703922904731ae4601784088fc841c3,",
+        "accent.surface-lightened": "S:e382487d6f56d845fafe797794a7ce1ab6fb8ee6,",
+        "accent.surface-default": "S:07bb96ef369c057760d6f88e06472cb73cdb6a9f,",
+        "accent.surface-darkened": "S:697e2d7d4d150f6e6c62ab786a33646de6884ee2,",
+        "accent.on-surface-default": "S:687e2e5a882a22596f88642df4049120f4a1087f,",
+        "accent.on-surface-subdued-1": "S:90996f5f472f1745508ee001291cb38004e31a9e,",
+        "accent.on-surface-subdued-2": "S:6fbaa2aee1e0e92d5be840c314344886f6447fcf,",
+        "accent-inverse.default": "S:088290a588805bdb1ec9e06583cf07b2fb19a28e,",
+        "accent-inverse.hover": "S:7070b1ac6ce463b80824109c8286fab8b0c997b9,",
+        "accent-inverse.active": "S:8482bf73434aef0ad772f85bdbfa30c6e3d857ec,",
+        "accent-inverse.on-default": "S:f3a3c53570efb90436846e2057c0c911297a2757,",
+        "neutral.on-surface-default": "S:0085077bed06a54ac7b8ef0c4f835eee90b61ea4,",
+        "neutral.on-surface-subdued-1": "S:3d80efa5af03056e1fddc5b36afd2ec04d5e66ad,",
+        "neutral.on-surface-subdued-2": "S:362c04100501aa82386ec3110ff6f730f7b712f2,",
+        "neutral.app-background": "S:8c5954b8ffeaca082a6f25beecf9bad8c9ef1ab0,",
+        "neutral.surface-lightened": "S:3c537f44a1e35d796d904f8b658a2396a5379aa0,",
+        "neutral.surface-default": "S:6197fbd630789776231f9b553ea005e07dda556c,",
+        "neutral.surface-darkened-1": "S:b49dc538d78303a23ecc3dded2543b9c8fe13413,",
+        "neutral.surface-darkened-2": "S:d9ae66249d4e65bf9b1f23a8c85920734256301e,",
+        "neutral.surface-inverse-default": "S:e6dfe40c84b477d707714ab9e52455117bdcb244,",
+        "neutral.surface-inverse-lightened": "S:c167f7ba84d2a037c3b6ccedec18dd30d2c2bc37,",
+        "neutral.on-surface-inverse": "S:b25d9c55cedf4457b7801e76a870158737c9a33c,",
+        "feedback.success.surface": "S:34776a0176815a94330adaa4a6be5b4662edb6ee,",
+        "feedback.success.default": "S:339af5be8e20f0b6f73a6cf020280a5a8f552d44,",
+        "feedback.success.on-surface": "S:0e83db79356ad18fdc4964b109e01589bc1d05c3,",
+        "feedback.warning.surface": "S:9d0174a6d3eae14d350a335e56b206c83f057ba5,",
+        "feedback.warning.default": "S:472f91929ebfdbaf15b3ca558204623ae59afffc,",
+        "feedback.warning.on-surface": "S:325212b55ca22d529306f10b1df8919e5df1ce77,",
+        "feedback.attention.surface": "S:8da78d8ed54c1eed5777b7b627ba3ac94fae431f,",
+        "feedback.attention.default": "S:e4cff11bbce374f40ef5ab2413e5dd6e21255d49,",
+        "feedback.attention.on-surface": "S:f9bb4260720d4081d5aef42ec65ffffddf010a67,",
+        "feedback.on-default": "S:5c1d27ac7bae599b6f87f3dd8937f6d230dee5dd,",
+        "other.none": "S:c3a9c16f55af3c14c74b87049ce81a234abba03a,",
+        "other.focus": "S:d17e91f433f57dca56fc332445a41f64f9261426,",
+        "other.overlay-background": "S:bc962e18c55f4da50160e69b5820708b65991077,",
+        "disabled.default": "S:4dee51616a7cdbfa4670d42651d597203c735336,",
+        "disabled.surface": "S:4c3f157cce80fa45c9d81ff9c437f568c3b56d3b,",
+        "disabled.on-surface-1": "S:1fac65014b79b43603f90616523f09f1a2ea3f48,",
+        "disabled.on-surface-subdued": "S:d03238757db12b7bc689d4f90d020e311171297a,",
+        "disabled.surface-inverse": "S:412053218a645d5f0458c9879aac5a05a8162321,",
+        "disabled.on-surface-inverse": "S:875458828fc2efceb6fb4ff31b17ad91a8b3605c,",
+        "lines.low-contrast": "S:da8fb25625ea8a7b0b4bfb6d74dfbb95a2e6b6df,",
+        "lines.default": "S:590114a66f8f6cb9004f7628a8d77f3a5f847438,",
+        "lines.high-contrast": "S:63d1f896079152367c5f4e70093cb025e1fa62d6,",
+        "illustration.tangerine.light": "S:49ab67978bf38a8fa8dcd8717ceeb2366ecbb3cf,",
+        "illustration.tangerine.default": "S:6178487f8ca1a7af6008f91dff2e79b1fb915361,",
+        "illustration.tangerine.dark": "S:87f280baa504b58d57ab0c69216db66100319b6d,",
+        "illustration.dandelion.light": "S:3a538db34f830d710ac900b6a80251f8662f32d8,",
+        "illustration.dandelion.default": "S:044b732415e1d8987fc6e49911b5cc23aef4c36a,",
+        "illustration.dandelion.dark": "S:ead64d03ba73d05277d1d7066742e7bf6944cc2f,",
+        "illustration.violet.light": "S:85e3ece3bf797376739aeff9ac2dcc4ed8847b4b,",
+        "illustration.violet.default": "S:390ab69910aa63f52f9be69be284fb8d21f32975,",
+        "illustration.violet.dark": "S:67ddc0183a576833447518f3b79bdbec877235ff,",
+        "illustration.emerald.light": "S:42622ef75e59408ddd99d1f2b1b5247d02df92e7,",
+        "illustration.emerald.default": "S:ae21ee546702a764adbe29376e47ea50e301f3db,",
+        "illustration.emerald.dark": "S:bf263dc78cef79f3617a18b73a49d529177637d2,",
+        "illustration.on-surface-dark": "S:cc3ec9f45f572dae72836a0282302d2a92593d0a,",
+        "illustration.on-surface-light": "S:2c1165ba87d7f7946d04d1cf32be493100b342b2,",
+        "disabled.on-surface-default": "S:401df8a0349449e38d2def365cda5538f29d0b49,",
+        "text.xsmall": "S:852f0293343ca7000f8aa55bcc9f56cea3b70dc2,",
+        "text.small": "S:2474a99e7fcf9aa882b99b1e3f10de3e482a9ab9,",
+        "text.default": "S:e61edf707707d81a1da3129c68872f5f3517e069,",
+        "text.large": "S:304894fca4a02ea05e00c17cfd631a952d578cd8,",
+        "text.xlarge": "S:f532f80f49ec58c81952db74d83737163e1c249b,",
+        "text-strong.xsmall": "S:ae13eb2b4441054e60662ed95f6da4d44b66a7d2,",
+        "text-strong.small": "S:fb764cac80b54bba74b618ab2ca1edb1ae9c87f7,",
+        "text-strong.default": "S:97b89b4500754f68d5cfa2cb28d77cf849a71f4b,",
+        "text-strong.large": "S:5e57d5b633bcf75387bf90b8c4fa78df20070e97,",
+        "text-strong.xlarge": "S:f594090c31b210255098cd087cd1249193e19357,",
+        "body-text.small": "S:f88ce7735b0604ae4b5ebb89cc5e59dd17707231,",
+        "body-text.default": "S:11e24fd68ce5e7d4ff96bb667a3f7a01cd6a1ed1,",
+        "body-text.large": "S:f09f907df93ffcd0645bb716741dd547af9cac6e,",
+        "body-text.xlarge": "S:722182ab9476404fb88c8eaddf5b19018cedd00f,",
+        "title.xsmall": "S:5ba267725827a37233cafed81bab25c2afc61fb8,",
+        "title.small": "S:55042a69a43ad88899f6bb6303cd03c8c86e12cf,",
+        "title.default": "S:05f869bcbf9eab25e8992755bab0ba6f72f74151,",
+        "title.large": "S:805c1f8faf410681ff128f1ecc17aa36c969609a,",
+        "heading.small": "S:6d74658fd83f142f0ac5ffb104be88133e09cd35,",
+        "heading.default": "S:8dbffc2affabf9972815b3b676580d8b5f88625e,",
+        "heading.large": "S:3abebf49c20b08be7e276bba108bbb2765dd3f67,",
+        "heading.xlarge": "S:8566fd98fbfcc8112c56c99693e6290a92e27416,",
+        "display.small": "S:46af50d3b73db500bdb109911743fcbd4057bbc5,",
+        "display.default": "S:b487f69ebfd3d1c322d3053c0463cfe7e8f8133a,",
+        "display.large": "S:e424cbc051fa6feb7b3fdde496699c6c9fee19bb,"
       },
       "selectedTokenSets": {
         "reference": "source",
