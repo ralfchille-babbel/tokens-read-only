@@ -2441,7 +2441,7 @@
           "type": "color"
         },
         "fg": {
-          "value": "{neutral.on-surface-default}",
+          "value": "{illustration.on-surface-dark}",
           "type": "color"
         }
       },
@@ -2484,6 +2484,16 @@
         },
         "border": {
           "value": "{feedback.attention.on-surface}",
+          "type": "color"
+        }
+      },
+      "default-translucent-dark": {
+        "bg": {
+          "value": "rgba(20,20,20,0.5)",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{illustration.on-surface-light}",
           "type": "color"
         }
       }
