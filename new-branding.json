@@ -1428,7 +1428,7 @@
         "value": "{reference.gray.gray100}",
         "type": "color"
       },
-      "on-surface-default": {
+      "on-surface": {
         "value": "{reference.gray.gray550}",
         "type": "color"
       },
@@ -3101,7 +3101,6 @@
         "other.overlay-background": "S:185db306eb72ae560a0195296300d70581ab1d2d,",
         "disabled.default": "S:f1b853c64fde70d50e7b5a89be04328ffc8c6800,",
         "disabled.surface": "S:bae6a6dcf61a2f0ed089ea2762c4306fca4fdf48,",
-        "disabled.on-surface-default": "S:dee5e1e37d204a9883abd8af2cf2664ae0da3d78,",
         "disabled.on-surface-subdued": "S:0490d568d9b51ac9a5a267961bf6c6fcc1e1ae98,",
         "disabled.surface-inverse": "S:ab3e3184b88f6671fe54dc180dbbd2b24519d891,",
         "disabled.on-surface-inverse": "S:80587fe0bab651c0d9b84cc99213847568502891,",
@@ -3158,7 +3157,8 @@
         "text-strong.xlarge": "S:071935d5658769b53b10da5108e406937dadeee5,",
         "elevation.default": "S:66e9f17d2c45446151204823a843b176845c8bac,",
         "elevation.medium": "S:add008caa5a9ae4ce8abbf89d058658251e07271,",
-        "elevation.very-high": "S:b8b951237b2ef530e8ca4a80557f2ce653014783,"
+        "elevation.very-high": "S:b8b951237b2ef530e8ca4a80557f2ce653014783,",
+        "disabled.on-surface": "S:dee5e1e37d204a9883abd8af2cf2664ae0da3d78,"
       },
       "selectedTokenSets": {
         "reference": "source",
@@ -3271,6 +3271,7 @@
         "space.x2": "3f73e9f108dc4eca77d9a84ebac5dc0417875083",
         "space.x3": "cb541be42bd2f5927d837aef0e833bc233809362",
         "space.x4": "d39d15219b39a993297c0135153ab74e8b2e691a",
+        "space.x5": "3aed5e6c3304dad1feebcacedb351ecf5c80e585",
         "space.x6": "2eba2b1f75b05cdaa8a43b6e68d6c8f2b2007311",
         "space.x8": "cf905c7cd743373e4d5da3b2207c7604464ca33a",
         "space.x10": "a1efc751e4d71608bdada20684156413919c8937",
@@ -3368,7 +3369,6 @@
         "illustration.emerald.dark": "S:bf263dc78cef79f3617a18b73a49d529177637d2,",
         "illustration.on-surface-dark": "S:cc3ec9f45f572dae72836a0282302d2a92593d0a,",
         "illustration.on-surface-light": "S:2c1165ba87d7f7946d04d1cf32be493100b342b2,",
-        "disabled.on-surface-default": "S:401df8a0349449e38d2def365cda5538f29d0b49,",
         "text.xsmall": "S:852f0293343ca7000f8aa55bcc9f56cea3b70dc2,",
         "text.small": "S:2474a99e7fcf9aa882b99b1e3f10de3e482a9ab9,",
         "text.default": "S:e61edf707707d81a1da3129c68872f5f3517e069,",
@@ -3393,7 +3393,8 @@
         "heading.xlarge": "S:8566fd98fbfcc8112c56c99693e6290a92e27416,",
         "display.small": "S:46af50d3b73db500bdb109911743fcbd4057bbc5,",
         "display.default": "S:b487f69ebfd3d1c322d3053c0463cfe7e8f8133a,",
-        "display.large": "S:e424cbc051fa6feb7b3fdde496699c6c9fee19bb,"
+        "display.large": "S:e424cbc051fa6feb7b3fdde496699c6c9fee19bb,",
+        "disabled.on-surface": "S:401df8a0349449e38d2def365cda5538f29d0b49,"
       },
       "selectedTokenSets": {
         "reference": "source",
@@ -3459,7 +3460,7 @@
         "other.overlay-background": "87a7f57b9d65adf7fa98256773cde79fd7f58c8f",
         "disabled.default": "41ab46895ed718c421da7971c289dc97401246b5",
         "disabled.surface": "cb4e153b0563c10448fff6690695b8bc3e83fe79",
-        "disabled.on-surface-1": "30ff603622faa5e826f712959decea7ea018a8be",
+        "disabled.on-surface-1": "51ff4ce0dae2f60a2ba65425afc9a985d1a6561c",
         "disabled.on-surface-subdued": "83a6d7f8933e6fc67153bb82bc3bb75091dee2da",
         "disabled.surface-inverse": "31c7a0932f467957c460d795a79956ccaffdd102",
         "disabled.on-surface-inverse": "1de3b815a5437c7f3fb7b49193d760f49b7a19b6",
@@ -3514,6 +3515,7 @@
         "space.x2": "3f73e9f108dc4eca77d9a84ebac5dc0417875083",
         "space.x3": "cb541be42bd2f5927d837aef0e833bc233809362",
         "space.x4": "d39d15219b39a993297c0135153ab74e8b2e691a",
+        "space.x5": "3aed5e6c3304dad1feebcacedb351ecf5c80e585",
         "space.x6": "2eba2b1f75b05cdaa8a43b6e68d6c8f2b2007311",
         "space.x8": "cf905c7cd743373e4d5da3b2207c7604464ca33a",
         "space.x10": "a1efc751e4d71608bdada20684156413919c8937",
