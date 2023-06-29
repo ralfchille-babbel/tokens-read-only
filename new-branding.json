@@ -1181,30 +1181,6 @@
       "on-default": {
         "value": "{reference.white}",
         "type": "color"
-      },
-      "surface-lightened": {
-        "value": "{reference.gray.gray50}",
-        "type": "color"
-      },
-      "surface-default": {
-        "value": "{reference.gray.gray100}",
-        "type": "color"
-      },
-      "surface-darkened": {
-        "value": "{reference.gray.gray150}",
-        "type": "color"
-      },
-      "on-surface-default": {
-        "value": "{reference.gray.gray950}",
-        "type": "color"
-      },
-      "on-surface-subdued-1": {
-        "value": "{reference.gray.gray800}",
-        "type": "color"
-      },
-      "on-surface-subdued-2": {
-        "value": "{reference.gray.gray650}",
-        "type": "color"
       }
     },
     "accent-inverse": {
@@ -2453,10 +2429,6 @@
         "fg": {
           "value": "{feedback.success.on-surface}",
           "type": "color"
-        },
-        "border": {
-          "value": "{feedback.success.on-surface}",
-          "type": "color"
         }
       },
       "warning": {
@@ -2467,10 +2439,6 @@
         "fg": {
           "value": "{feedback.warning.on-surface}",
           "type": "color"
-        },
-        "border": {
-          "value": "{feedback.warning.on-surface}",
-          "type": "color"
         }
       },
       "failure": {
@@ -2479,10 +2447,6 @@
           "type": "color"
         },
         "fg": {
-          "value": "{feedback.attention.on-surface}",
-          "type": "color"
-        },
-        "border": {
           "value": "{feedback.attention.on-surface}",
           "type": "color"
         }
@@ -3086,12 +3050,6 @@
         "accent.hover": "S:63c726c57d04662a4128fa222d1cfab76b3797ce,",
         "accent.active": "S:bdb56ddbf1f444e10ce7f633e1b7eedc14028a1a,",
         "accent.on-default": "S:e99f92f2054da58112e70935a0d09a7d1560ef15,",
-        "accent.surface-lightened": "S:ac2174855c83ca0bf36427a8c38c5bb804f7866c,",
-        "accent.surface-default": "S:1bdbb53c49abd6502e5ea8ca6478ae8bc5f28845,",
-        "accent.surface-darkened": "S:39c003a686184e713cda61da88c3548d9a6c3c57,",
-        "accent.on-surface-default": "S:ebcc99335f00d92221494cb1b3c8a7b16f2892fe,",
-        "accent.on-surface-subdued-1": "S:12291e3517ce44cca12ca6069226ae0f0455b1a2,",
-        "accent.on-surface-subdued-2": "S:8301c0dcd55268921c529316cebc179ab30787d9,",
         "accent-inverse.default": "S:dcd425affe90ae9a9cd4626d78eb8ae6502d5845,",
         "accent-inverse.hover": "S:52fb99c4ff2a12ef1fc69c36d03059ab7b692fbc,",
         "accent-inverse.active": "S:1d892ccceddb356e7844a63d4ea0a6e00e22a0f5,",
@@ -3342,12 +3300,6 @@
         "accent.hover": "S:9c2f1a4b060a0ca3591a2b79f83d7b2a6b443f0e,",
         "accent.active": "S:1f9ee6736db101245514b14b48863a9273d0036a,",
         "accent.on-default": "S:bb25bce16703922904731ae4601784088fc841c3,",
-        "accent.surface-lightened": "S:e382487d6f56d845fafe797794a7ce1ab6fb8ee6,",
-        "accent.surface-default": "S:07bb96ef369c057760d6f88e06472cb73cdb6a9f,",
-        "accent.surface-darkened": "S:697e2d7d4d150f6e6c62ab786a33646de6884ee2,",
-        "accent.on-surface-default": "S:687e2e5a882a22596f88642df4049120f4a1087f,",
-        "accent.on-surface-subdued-1": "S:90996f5f472f1745508ee001291cb38004e31a9e,",
-        "accent.on-surface-subdued-2": "S:6fbaa2aee1e0e92d5be840c314344886f6447fcf,",
         "accent-inverse.default": "S:088290a588805bdb1ec9e06583cf07b2fb19a28e,",
         "accent-inverse.hover": "S:7070b1ac6ce463b80824109c8286fab8b0c997b9,",
         "accent-inverse.active": "S:8482bf73434aef0ad772f85bdbfa30c6e3d857ec,",
