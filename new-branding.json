@@ -1727,6 +1727,11 @@
         "type": "spacing",
         "description": "1rem"
       },
+      "x5": {
+        "value": "20px",
+        "type": "spacing",
+        "description": "1.25rem"
+      },
       "x6": {
         "value": "24px",
         "type": "spacing",
