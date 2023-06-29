@@ -1101,6 +1101,16 @@
         "type": "color",
         "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating or important text.\n\nTokens for: \n–– JS: light.theme.brand.default \n–– iOS: LightThemeBrandDefault \n–– Android: light_theme_brand_default "
       },
+      "on-default": {
+        "value": "{reference.orange.orange500}",
+        "type": "color",
+        "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating or important text.\n\nTokens for: \n–– JS: light.theme.brand.default \n–– iOS: LightThemeBrandDefault \n–– Android: light_theme_brand_default "
+      },
+      "enabled": {
+        "value": "{reference.orange.orange500}",
+        "type": "color",
+        "description": "Default brand color. Use it for UI elements that are related to the learners success like buttons in trainers, progress bars, idicators or motivating or important text.\n\nTokens for: \n–– JS: light.theme.brand.default \n–– iOS: LightThemeBrandDefault \n–– Android: light_theme_brand_default "
+      },
       "hover": {
         "value": "{reference.orange.orange550}",
         "type": "color",
@@ -1111,7 +1121,7 @@
         "type": "color",
         "description": "Active state of the default brand color. Only us in interactive elements that provide an active state."
       },
-      "on-default": {
+      "on-all": {
         "value": "{reference.white}",
         "type": "color",
         "description": "Use brand.on-default if you need a foreground color on brand.default filled surfaces. E.g., buttons in trainers."
@@ -1148,7 +1158,7 @@
       }
     },
     "brand-inverse": {
-      "default": {
+      "enabled": {
         "value": "{reference.white}",
         "type": "color"
       },
@@ -1160,13 +1170,13 @@
         "value": "{reference.orange.orange50}",
         "type": "color"
       },
-      "on-default": {
+      "on-all": {
         "value": "{reference.orange.orange500}",
         "type": "color"
       }
     },
     "accent": {
-      "default": {
+      "enabled": {
         "value": "{reference.gray.gray950}",
         "type": "color"
       },
@@ -1182,13 +1192,13 @@
         "value": "{reference.orange.orange650}",
         "type": "color"
       },
-      "on-default": {
+      "on-all": {
         "value": "{reference.white}",
         "type": "color"
       }
     },
     "accent-inverse": {
-      "default": {
+      "enabled": {
         "value": "{reference.white}",
         "type": "color"
       },
@@ -1204,7 +1214,7 @@
         "value": "{reference.orange.orange150}",
         "type": "color"
       },
-      "on-default": {
+      "on-all": {
         "value": "{reference.gray.gray950}",
         "type": "color"
       }
@@ -1777,7 +1787,7 @@
       "accent": {
         "value": {
           "style": "solid",
-          "color": "{accent.default}",
+          "color": "{accent.enabled}",
           "width": "1px"
         },
         "type": "border"
@@ -2191,7 +2201,7 @@
       "accent": {
         "value": {
           "style": "solid",
-          "color": "{accent.default}",
+          "color": "{accent.enabled}",
           "width": "1px"
         },
         "type": "border"
@@ -2236,11 +2246,11 @@
       },
       "highlight": {
         "text-color": {
-          "value": "{brand.default}",
+          "value": "{brand.enabled}",
           "type": "color"
         },
         "icon-color": {
-          "value": "{brand.default}",
+          "value": "{brand.enabled}",
           "type": "color"
         }
       },
@@ -2300,11 +2310,11 @@
     "primary": {
       "default": {
         "icon-color": {
-          "value": "{brand.on-default}",
+          "value": "{brand.on-all}",
           "type": "color"
         },
         "background": {
-          "value": "{brand.default}",
+          "value": "{brand.enabled}",
           "type": "color"
         }
       },
@@ -2334,11 +2344,11 @@
     "secondary": {
       "default": {
         "background": {
-          "value": "{accent-inverse.default}",
+          "value": "{accent-inverse.enabled}",
           "type": "color"
         },
         "icon-color": {
-          "value": "{accent.default}",
+          "value": "{accent.enabled}",
           "type": "color"
         },
         "border-color": {
@@ -2372,7 +2382,7 @@
           "type": "color"
         },
         "icon-color": {
-          "value": "{accent.default}",
+          "value": "{accent.enabled}",
           "type": "color"
         }
       },
@@ -2489,7 +2499,7 @@
       "primary": {
         "bg": {
           "default": {
-            "value": "{accent.default}",
+            "value": "{accent.enabled}",
             "type": "color"
           },
           "hover": {
@@ -2507,7 +2517,7 @@
         },
         "fg": {
           "default": {
-            "value": "{accent.on-default}",
+            "value": "{accent.on-all}",
             "type": "color"
           },
           "disabled": {
@@ -2519,7 +2529,7 @@
       "primary-emphasis": {
         "bg": {
           "default": {
-            "value": "{brand.default}",
+            "value": "{brand.enabled}",
             "type": "color"
           },
           "hover": {
@@ -2537,7 +2547,7 @@
         },
         "fg": {
           "default": {
-            "value": "{brand.on-default}",
+            "value": "{brand.on-all}",
             "type": "color"
           },
           "disabled": {
@@ -2549,7 +2559,7 @@
       "secondary": {
         "bg": {
           "default": {
-            "value": "{accent-inverse.default}",
+            "value": "{accent-inverse.enabled}",
             "type": "color"
           },
           "hover": {
@@ -2567,7 +2577,7 @@
         },
         "border": {
           "default": {
-            "value": "{accent.default}",
+            "value": "{accent.enabled}",
             "type": "color"
           },
           "disabled": {
@@ -2577,7 +2587,7 @@
         },
         "fg": {
           "default": {
-            "value": "{accent.default}",
+            "value": "{accent.enabled}",
             "type": "color"
           },
           "disabled": {
@@ -2589,7 +2599,7 @@
       "secondary-emphasis": {
         "bg": {
           "default": {
-            "value": "{brand-inverse.default}",
+            "value": "{brand-inverse.enabled}",
             "type": "color"
           },
           "hover": {
@@ -2607,7 +2617,7 @@
         },
         "border": {
           "default": {
-            "value": "{brand.default}",
+            "value": "{brand.enabled}",
             "type": "color"
           },
           "disabled": {
@@ -2617,7 +2627,7 @@
         },
         "fg": {
           "default": {
-            "value": "{brand.default}",
+            "value": "{brand.enabled}",
             "type": "color"
           },
           "disabled": {
@@ -2647,7 +2657,7 @@
         },
         "fg": {
           "default": {
-            "value": "{accent.default}",
+            "value": "{accent.enabled}",
             "type": "color"
           },
           "disabled": {
@@ -2659,7 +2669,7 @@
       "primary-inverse": {
         "bg": {
           "default": {
-            "value": "{accent-inverse.default}",
+            "value": "{accent-inverse.enabled}",
             "type": "color"
           },
           "hover": {
@@ -2677,7 +2687,7 @@
         },
         "fg": {
           "default": {
-            "value": "{accent-inverse.on-default}",
+            "value": "{accent-inverse.on-all}",
             "type": "color"
           },
           "disabled": {
@@ -2689,7 +2699,7 @@
       "secondary-inverse": {
         "bg": {
           "default": {
-            "value": "{accent.default}",
+            "value": "{accent.enabled}",
             "type": "color"
           },
           "hover": {
@@ -2707,7 +2717,7 @@
         },
         "border": {
           "default": {
-            "value": "{accent-inverse.default}",
+            "value": "{accent-inverse.enabled}",
             "type": "color"
           },
           "disabled": {
@@ -2717,7 +2727,7 @@
         },
         "fg": {
           "default": {
-            "value": "{accent-inverse.default}",
+            "value": "{accent-inverse.enabled}",
             "type": "color"
           },
           "disabled": {
@@ -2747,7 +2757,7 @@
         },
         "fg": {
           "default": {
-            "value": "{accent-inverse.default}",
+            "value": "{accent-inverse.enabled}",
             "type": "color"
           },
           "disabled": {
@@ -2782,7 +2792,7 @@
       "type": "color"
     },
     "trainer-current": {
-      "value": "{brand.default}",
+      "value": "{brand.enabled}",
       "type": "color"
     },
     "course-completed": {
@@ -3053,28 +3063,20 @@
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
       "name": "Light Mode",
       "$figmaStyleReferences": {
-        "brand.default": "S:4bba218e35a29f1a7ecda671cdd9311e7048e286,",
         "brand.hover": "S:908a63692dc5e5393730ed7161bc05354a9a7d3d,",
         "brand.active": "S:5536cb549bb6330ea96eb603252c22edd16e8c81,",
-        "brand.on-default": "S:7bd05cbfb1fe248a001c956dd976a3e0de2019f3,",
         "brand.surface-lightened": "S:8bf11da9747805aab7df1ded201302ec7b315ce3,",
         "brand.surface-default": "S:76f06736ade742e49dce038ba68cd399785ef985,",
         "brand.surface-darkened": "S:727423d29219d6fd62d9c6cd430679b45f6480f1,",
         "brand.on-surface-default": "S:f6b7aaafa4a57334e3894e5348196ad4d21d39e3,",
         "brand.on-surface-subdued-1": "S:7471bba42c9762af36bac74b7875220273d933b6,",
         "brand.on-surface-subdued-2": "S:ced108c28f93eb4b98888886b13699604f9d466e,",
-        "brand-inverse.default": "S:7062bd6d5242ba519e843abcf69f1deab487ecde,",
         "brand-inverse.hover": "S:fde7e241446ee7450080599370dbd469641d3730,",
         "brand-inverse.active": "S:acc4a589733273ffe0bb50067dffb0fdfd628076,",
-        "brand-inverse.on-default": "S:11765c40192ce1b1f64ac958966c06d5fea504f8,",
-        "accent.default": "S:f80ca45ef9e23566fdd67fa21ef816c6d2d454a3,",
         "accent.hover": "S:63c726c57d04662a4128fa222d1cfab76b3797ce,",
         "accent.active": "S:bdb56ddbf1f444e10ce7f633e1b7eedc14028a1a,",
-        "accent.on-default": "S:e99f92f2054da58112e70935a0d09a7d1560ef15,",
-        "accent-inverse.default": "S:dcd425affe90ae9a9cd4626d78eb8ae6502d5845,",
         "accent-inverse.hover": "S:52fb99c4ff2a12ef1fc69c36d03059ab7b692fbc,",
         "accent-inverse.active": "S:1d892ccceddb356e7844a63d4ea0a6e00e22a0f5,",
-        "accent-inverse.on-default": "S:50b583b1b040df520e86764ea827f3139a4dd74a,",
         "neutral.app-background": "S:45562d5192efc31c2f8613b2b251e9b56859981b,",
         "neutral.surface-lightened": "S:49be38df632ea78e7d23325179d4810c3cd575d7,",
         "neutral.surface-default": "S:1b20321f5ceaf20479eb645218084eee8226fac4,",
@@ -3158,7 +3160,15 @@
         "elevation.default": "S:66e9f17d2c45446151204823a843b176845c8bac,",
         "elevation.medium": "S:add008caa5a9ae4ce8abbf89d058658251e07271,",
         "elevation.very-high": "S:b8b951237b2ef530e8ca4a80557f2ce653014783,",
-        "disabled.on-surface": "S:dee5e1e37d204a9883abd8af2cf2664ae0da3d78,"
+        "disabled.on-surface": "S:dee5e1e37d204a9883abd8af2cf2664ae0da3d78,",
+        "brand.enabled": "S:4bba218e35a29f1a7ecda671cdd9311e7048e286,",
+        "brand-inverse.enabled": "S:7062bd6d5242ba519e843abcf69f1deab487ecde,",
+        "accent.enabled": "S:f80ca45ef9e23566fdd67fa21ef816c6d2d454a3,",
+        "accent-inverse.enabled": "S:dcd425affe90ae9a9cd4626d78eb8ae6502d5845,",
+        "brand.on-all": "S:7bd05cbfb1fe248a001c956dd976a3e0de2019f3,",
+        "brand-inverse.on-all": "S:11765c40192ce1b1f64ac958966c06d5fea504f8,",
+        "accent.on-all": "S:e99f92f2054da58112e70935a0d09a7d1560ef15,",
+        "accent-inverse.on-all": "S:50b583b1b040df520e86764ea827f3139a4dd74a,"
       },
       "selectedTokenSets": {
         "reference": "source",
@@ -3217,7 +3227,7 @@
         "other.overlay-background": "87a7f57b9d65adf7fa98256773cde79fd7f58c8f",
         "disabled.default": "41ab46895ed718c421da7971c289dc97401246b5",
         "disabled.surface": "cb4e153b0563c10448fff6690695b8bc3e83fe79",
-        "disabled.on-surface-default": "aea79203eb293e5cef3833042cbb3c0985a3d3ea",
+        "disabled.on-surface": "3533eb37e211b75dd42b9de4d67c64747eba3c81",
         "disabled.on-surface-subdued": "83a6d7f8933e6fc67153bb82bc3bb75091dee2da",
         "disabled.surface-inverse": "31c7a0932f467957c460d795a79956ccaffdd102",
         "disabled.on-surface-inverse": "1de3b815a5437c7f3fb7b49193d760f49b7a19b6",
@@ -3300,28 +3310,20 @@
         "elevation-test.medium": "S:95f73037012b0668986f0982a4b6726e2f9eb607,",
         "elevation-test.high": "S:25b36fdcde500bf0ae3af1f5b24f861752525aaf,",
         "elevation-test.very-high": "S:68b3b488ca04a512c2160db1aaf283c8d52cc9a8,",
-        "brand.default": "S:a6ef0d180578d3f196b601ccb7dfaa88ee600851,",
         "brand.hover": "S:cf02543b87b7732868d5cc777aaab65d21f9cc8c,",
         "brand.active": "S:15425dfd7782edfbe69135813c1b4ac70af476ef,",
-        "brand.on-default": "S:34e97fff949e83343b27c6c8d06137794b79800b,",
         "brand.surface-lightened": "S:0a4dba637e6707cb84b22f739168d98b6c438571,",
         "brand.surface-default": "S:0ce30572356f130ec55eda92efda9323e731b3a3,",
         "brand.surface-darkened": "S:7c7638ac395d67089ea3c44e2eb5cfa5947ccdd7,",
         "brand.on-surface-default": "S:ab509dd60dbb2102a09d1d4f110e724ed0fec6ad,",
         "brand.on-surface-subdued-1": "S:f81d6add02876dc5dd735e8c48736071d7b9bdfd,",
         "brand.on-surface-subdued-2": "S:b604041560bff656a3f30237768c9fdb16204a40,",
-        "brand-inverse.default": "S:82bae3530b2226577d91c5a1ae2929fcf7092a48,",
         "brand-inverse.hover": "S:231f3433df74b6595fc930bacde11bd3e9eada55,",
         "brand-inverse.active": "S:568669facf440e3b0965b9893376abe45797509d,",
-        "brand-inverse.on-default": "S:d054ce9aec9d37a06cb15ad45e344c2dfaf86a5f,",
-        "accent.default": "S:d003801a908372c50dbab5d97b39f8de8ac36927,",
         "accent.hover": "S:9c2f1a4b060a0ca3591a2b79f83d7b2a6b443f0e,",
         "accent.active": "S:1f9ee6736db101245514b14b48863a9273d0036a,",
-        "accent.on-default": "S:bb25bce16703922904731ae4601784088fc841c3,",
-        "accent-inverse.default": "S:088290a588805bdb1ec9e06583cf07b2fb19a28e,",
         "accent-inverse.hover": "S:7070b1ac6ce463b80824109c8286fab8b0c997b9,",
         "accent-inverse.active": "S:8482bf73434aef0ad772f85bdbfa30c6e3d857ec,",
-        "accent-inverse.on-default": "S:f3a3c53570efb90436846e2057c0c911297a2757,",
         "neutral.on-surface-default": "S:0085077bed06a54ac7b8ef0c4f835eee90b61ea4,",
         "neutral.on-surface-subdued-1": "S:3d80efa5af03056e1fddc5b36afd2ec04d5e66ad,",
         "neutral.on-surface-subdued-2": "S:362c04100501aa82386ec3110ff6f730f7b712f2,",
@@ -3394,7 +3396,15 @@
         "display.small": "S:46af50d3b73db500bdb109911743fcbd4057bbc5,",
         "display.default": "S:b487f69ebfd3d1c322d3053c0463cfe7e8f8133a,",
         "display.large": "S:e424cbc051fa6feb7b3fdde496699c6c9fee19bb,",
-        "disabled.on-surface": "S:401df8a0349449e38d2def365cda5538f29d0b49,"
+        "disabled.on-surface": "S:401df8a0349449e38d2def365cda5538f29d0b49,",
+        "brand.enabled": "S:a6ef0d180578d3f196b601ccb7dfaa88ee600851,",
+        "brand-inverse.enabled": "S:82bae3530b2226577d91c5a1ae2929fcf7092a48,",
+        "accent.enabled": "S:d003801a908372c50dbab5d97b39f8de8ac36927,",
+        "accent-inverse.enabled": "S:088290a588805bdb1ec9e06583cf07b2fb19a28e,",
+        "brand.on-all": "S:34e97fff949e83343b27c6c8d06137794b79800b,",
+        "brand-inverse.on-all": "S:d054ce9aec9d37a06cb15ad45e344c2dfaf86a5f,",
+        "accent.on-all": "S:bb25bce16703922904731ae4601784088fc841c3,",
+        "accent-inverse.on-all": "S:f3a3c53570efb90436846e2057c0c911297a2757,"
       },
       "selectedTokenSets": {
         "reference": "source",
@@ -3481,7 +3491,7 @@
         "illustration.emerald.dark": "2ed630e729680b34e71c41c025e65a59c35a90b7",
         "illustration.on-surface-dark": "68342aebd7280f627936c313d42e8a07e2d62d49",
         "illustration.on-surface-light": "921ee95e3b52c69aa3d9f04c728872aa2dc6c96e",
-        "disabled.on-surface-default": "aea79203eb293e5cef3833042cbb3c0985a3d3ea",
+        "disabled.on-surface": "3533eb37e211b75dd42b9de4d67c64747eba3c81",
         "radius.xsmall": "f0b6085362e09c6cc7489e0c9504d2b9cc75b816",
         "radius.small": "d61b085e43d032453b2aac4e1250cc840e71396b",
         "radius.default": "766f698e3c618a0a6c66d4fd232baf55b8fa58a8",
