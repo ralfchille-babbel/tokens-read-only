@@ -112,7 +112,7 @@
       },
       "line-height": {
         "x4": {
-          "value": "16px",
+          "value": "16",
           "type": "lineHeights"
         },
         "x5": {
@@ -1554,7 +1554,7 @@
           "type": "color"
         },
         "default": {
-          "value": "{reference.dandelion.dandelion600}",
+          "value": "{reference.dandelion.dandelion500}",
           "type": "color"
         },
         "dark": {
@@ -2221,64 +2221,72 @@
   "link": {
     "link": {
       "default": {
-        "fg": {
-          "value": "{accent.enabled}",
+        "text-color": {
+          "value": "{neutral.on-surface-default}",
           "type": "color"
         },
-        "fg-hover": {
-          "value": "{accent.hover}",
-          "type": "color"
-        },
-        "fg-active": {
-          "value": "{accent.active}",
-          "type": "color"
-        }
-      },
-      "emphasis": {
-        "fg": {
-          "value": "{brand.enabled}",
-          "type": "color"
-        },
-        "fg-hover": {
-          "value": "{brand.hover}",
-          "type": "color"
-        },
-        "fg-active": {
-          "value": "{brand.active}",
-          "type": "color"
-        }
-      },
-      "subdued": {
-        "fg": {
-          "value": "{neutral.on-surface-subdued-2}",
-          "type": "color"
-        },
-        "fg-hover": {
-          "value": "{neutral.on-surface-subdued-1}",
-          "type": "color"
-        },
-        "fg-active": {
+        "icon-color": {
           "value": "{neutral.on-surface-default}",
           "type": "color"
         }
       },
+      "highlight": {
+        "text-color": {
+          "value": "{brand.enabled}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{brand.enabled}",
+          "type": "color"
+        }
+      },
+      "subdued": {
+        "text-color": {
+          "value": "{neutral.on-surface-subdued-1}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{neutral.on-surface-subdued-1}",
+          "type": "color"
+        }
+      },
       "disabled": {
-        "fg": {
+        "text-color": {
+          "value": "{disabled.on-surface-subdued}",
+          "type": "color"
+        },
+        "icon-color": {
           "value": "{disabled.on-surface-subdued}",
           "type": "color"
         }
       },
+      "hover": {
+        "text-color": {
+          "value": "{brand.hover}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{brand.hover}",
+          "type": "color"
+        }
+      },
+      "active": {
+        "text-color": {
+          "value": "{brand.active}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{brand.active}",
+          "type": "color"
+        }
+      },
       "inverse": {
-        "fg": {
-          "value": "{accent-inverse.enabled}",
+        "text-color": {
+          "value": "{neutral.on-surface-inverse}",
           "type": "color"
         },
-        "fg-hover": {
-          "value": "{accent-inverse.hover}",
-          "type": "color"
-        },
-        "fg-active": {
-          "value": "{accent-inverse.active}",
+        "icon-color": {
+          "value": "{neutral.on-surface-inverse}",
           "type": "color"
         }
       }
@@ -2507,7 +2515,7 @@
       "primary-emphasis": {
         "bg": {
           "enabled": {
-            "value": "{brand.enabled}",
+            "value": "{brand-inverse.on-enabled}",
             "type": "color"
           },
           "hover": {
@@ -3399,7 +3407,6 @@
         "brand.enabled": "79d0e7eada14a61b3afbb1ac5602963f54a17bf7",
         "brand.hover": "7263f660f625cb26bc606c4819a5ccdb9ab160dc",
         "brand.active": "f984c8d484976bc396e31eec104d8d11963a9bc5",
-        "brand.on-enabled": "386fb1246a616e9fea12719da50ca04e2f06627b",
         "brand.surface-lightened": "aa248f3e213f5d0123ee0534e76c97028edbcbcd",
         "brand.surface-default": "e8ce2bbcb2047e1394c8c12c4aba36a6707a128a",
         "brand.surface-darkened": "4479fce6dab4b22317f34a5b3d0914653d61634d",
@@ -3409,17 +3416,14 @@
         "brand-inverse.enabled": "c4158b284847d68b0cd79042eb1a0da732f2f805",
         "brand-inverse.hover": "a1f4622ffacf5606f42579d1021b42193a8d7135",
         "brand-inverse.active": "9a4aaa302080e75dfe0531db2148d40454c88738",
-        "brand-inverse.on-enabled": "5b5d15c9f3f7fa14de6f21ecad7c140b730f7728",
         "accent.enabled": "b9efc2afd7bd18308eb3161adc9dd2795ce63731",
         "accent.hover": "bd2e9783250d87c1d87d69c4f66979fe68a5fab3",
         "accent.active": "9634e0db09300765260c7d59c94f96409db0957f",
         "accent.selected": "184e3124d81bcdc6fc6a82bb9d372456dae60366",
-        "accent.on-enabled": "2edf5156f3ff450b2132f0bdb5e478b7866bc001",
         "accent-inverse.enabled": "d77b4520bc4acf2c8d667fc87adb15a1c9dc1333",
         "accent-inverse.hover": "88571c091e6bdf91821f4f74d9ad5e35fdb8dedb",
         "accent-inverse.active": "2194e99e100bec2acd3f34933d2298691e87d894",
         "accent-inverse.selected": "c72dc68f11f731ae3e3b9f0229fcd6614b17fb27",
-        "accent-inverse.on-enabled": "61ac27ced55464ae17c88bc70f021731932a77ef",
         "neutral.on-surface-default": "f22baa9f2611ff65ccaeeaa24e9e24ddecf9e271",
         "neutral.on-surface-subdued-1": "7b0d0636fbcc13c08b40e4976872ad21602aca84",
         "neutral.on-surface-subdued-2": "f5e12b3b4b6ee813d6882a10289b0545ee3f17a0",
@@ -3467,6 +3471,10 @@
         "illustration.emerald.dark": "2ed630e729680b34e71c41c025e65a59c35a90b7",
         "illustration.on-surface-dark": "68342aebd7280f627936c313d42e8a07e2d62d49",
         "illustration.on-surface-light": "921ee95e3b52c69aa3d9f04c728872aa2dc6c96e",
+        "brand.on-enabled": "7aaa49818b1820138da3e3650d4d76b5cdd76af9",
+        "brand-inverse.on-enabled": "18f0a460708ad678d3730cc5cb26ceb433a7111d",
+        "accent.on-enabled": "112676b57a9aec3cab68da9fcf5339c9c24c8ea5",
+        "accent-inverse.on-enabled": "2b9da535def61a260d20c95ea5d370afd07c3ede",
         "disabled.on-surface": "3533eb37e211b75dd42b9de4d67c64747eba3c81",
         "radius.xsmall": "f0b6085362e09c6cc7489e0c9504d2b9cc75b816",
         "radius.small": "d61b085e43d032453b2aac4e1250cc840e71396b",
@@ -3521,8 +3529,7 @@
         "reference": "source",
         "semantic light": "source",
         "badge": "enabled",
-        "button": "enabled",
-        "link": "enabled"
+        "button": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7431",
       "$figmaModeId": "3103:6",
@@ -3596,18 +3603,7 @@
         "badge.failure.bg": "5bb9254e5c8420e39b8975c34d7f3e5340f64e70",
         "badge.failure.fg": "93762d1b7ac201d6e61c29694823bc95f4bcc3f2",
         "badge.default-translucent-dark.bg": "a0488b25eed8fc45ac0706097bfa66deddee3f59",
-        "badge.default-translucent-dark.fg": "f3bc904d23d281dd9a0225967cc1ef00f4f6841c",
-        "link.default.fg": "73182e41b9fd20e13e206d8e0c51d3c2ce96e177",
-        "link.emphasis.fg": "f86a46aa3c3c40626a91ab2a6f219d5354d96ded",
-        "link.subdued.fg": "498146791bda21911df54133f8545c8d082cc5cb",
-        "link.disabled.fg": "d62b27279ae9d015c4470007502e81b8c74fe6f2",
-        "link.emphasis.fg-hover": "db2b3b36bc7c2e64c31444638900ca80665519f8",
-        "link.emphasis.fg-active": "6fe56f33ea36d0b543ec82ff300d4dad82f2f83e",
-        "link.inverse.fg": "2764bc1cc23872e0bba7176d7a816d7ba97120eb",
-        "link.default.fg-hover": "c1284da30c56d3e5ba3ec72d0dac16239104d640",
-        "link.default.fg-active": "2325e45e6e5b1ec000205b3a655ebe481d26a9fb",
-        "link.subdued.fg-hover": "e60d0f3210d8393be670604cbf49739705e2f852",
-        "link.subdued.fg-active": "9e4594e634d3d42d9df8f56c2ff46b358ccf5d54"
+        "badge.default-translucent-dark.fg": "f3bc904d23d281dd9a0225967cc1ef00f4f6841c"
       },
       "group": "Component"
     }
