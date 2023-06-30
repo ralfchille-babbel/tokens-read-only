@@ -2270,7 +2270,15 @@
       },
       "inverse": {
         "fg": {
-          "value": "{neutral.on-surface-inverse}",
+          "value": "{accent-inverse.enabled}",
+          "type": "color"
+        },
+        "fg-hover": {
+          "value": "{accent-inverse.hover}",
+          "type": "color"
+        },
+        "fg-active": {
+          "value": "{accent-inverse.active}",
           "type": "color"
         }
       }
@@ -3588,7 +3596,18 @@
         "badge.failure.bg": "5bb9254e5c8420e39b8975c34d7f3e5340f64e70",
         "badge.failure.fg": "93762d1b7ac201d6e61c29694823bc95f4bcc3f2",
         "badge.default-translucent-dark.bg": "a0488b25eed8fc45ac0706097bfa66deddee3f59",
-        "badge.default-translucent-dark.fg": "f3bc904d23d281dd9a0225967cc1ef00f4f6841c"
+        "badge.default-translucent-dark.fg": "f3bc904d23d281dd9a0225967cc1ef00f4f6841c",
+        "link.default.fg": "73182e41b9fd20e13e206d8e0c51d3c2ce96e177",
+        "link.emphasis.fg": "f86a46aa3c3c40626a91ab2a6f219d5354d96ded",
+        "link.subdued.fg": "498146791bda21911df54133f8545c8d082cc5cb",
+        "link.disabled.fg": "d62b27279ae9d015c4470007502e81b8c74fe6f2",
+        "link.emphasis.fg-hover": "db2b3b36bc7c2e64c31444638900ca80665519f8",
+        "link.emphasis.fg-active": "6fe56f33ea36d0b543ec82ff300d4dad82f2f83e",
+        "link.inverse.fg": "2764bc1cc23872e0bba7176d7a816d7ba97120eb",
+        "link.default.fg-hover": "c1284da30c56d3e5ba3ec72d0dac16239104d640",
+        "link.default.fg-active": "2325e45e6e5b1ec000205b3a655ebe481d26a9fb",
+        "link.subdued.fg-hover": "e60d0f3210d8393be670604cbf49739705e2f852",
+        "link.subdued.fg-active": "9e4594e634d3d42d9df8f56c2ff46b358ccf5d54"
       },
       "group": "Component"
     }
