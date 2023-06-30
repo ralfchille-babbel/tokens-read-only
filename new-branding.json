@@ -2222,15 +2222,15 @@
     "link": {
       "default": {
         "text-color": {
-          "value": "{neutral.on-surface-default}",
+          "value": "{accent.enabled}",
           "type": "color"
         },
         "icon-color": {
-          "value": "{neutral.on-surface-default}",
+          "value": "{accent.enabled}",
           "type": "color"
         }
       },
-      "highlight": {
+      "emphasis": {
         "text-color": {
           "value": "{brand.enabled}",
           "type": "color"
@@ -2242,11 +2242,11 @@
       },
       "subdued": {
         "text-color": {
-          "value": "{neutral.on-surface-subdued-1}",
+          "value": "{neutral.on-surface-subdued-2}",
           "type": "color"
         },
         "icon-color": {
-          "value": "{neutral.on-surface-subdued-1}",
+          "value": "{neutral.on-surface-subdued-2}",
           "type": "color"
         }
       },
@@ -2260,7 +2260,7 @@
           "type": "color"
         }
       },
-      "hover": {
+      "emphasis-hover": {
         "text-color": {
           "value": "{brand.hover}",
           "type": "color"
@@ -2270,7 +2270,7 @@
           "type": "color"
         }
       },
-      "active": {
+      "emphasis-active": {
         "text-color": {
           "value": "{brand.active}",
           "type": "color"
@@ -2287,6 +2287,46 @@
         },
         "icon-color": {
           "value": "{neutral.on-surface-inverse}",
+          "type": "color"
+        }
+      },
+      "default-hover": {
+        "text-color": {
+          "value": "{accent.hover}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{accent.hover}",
+          "type": "color"
+        }
+      },
+      "default-active": {
+        "text-color": {
+          "value": "{accent.active}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{accent.active}",
+          "type": "color"
+        }
+      },
+      "subdued-hover": {
+        "text-color": {
+          "value": "{neutral.on-surface-subdued-1}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{neutral.on-surface-subdued-1}",
+          "type": "color"
+        }
+      },
+      "subdued-active": {
+        "text-color": {
+          "value": "{neutral.on-surface-default}",
+          "type": "color"
+        },
+        "icon-color": {
+          "value": "{neutral.on-surface-default}",
           "type": "color"
         }
       }
