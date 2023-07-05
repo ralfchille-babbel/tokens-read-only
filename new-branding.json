@@ -1816,6 +1816,12 @@
         },
         "type": "border"
       }
+    },
+    "hidden": {
+      "translucent-light": {
+        "value": "#FFFFFFA6",
+        "type": "color"
+      }
     }
   },
   "semantic dark": {
@@ -2430,7 +2436,7 @@
       },
       "default-translucent": {
         "bg": {
-          "value": "#FFFFFFA6",
+          "value": "{hidden.translucent-light}",
           "type": "color"
         },
         "fg": {
