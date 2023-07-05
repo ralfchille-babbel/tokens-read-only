@@ -1783,40 +1783,6 @@
         "description": "12rem"
       }
     },
-    "border": {
-      "accent": {
-        "value": {
-          "style": "solid",
-          "color": "{accent.enabled}",
-          "width": "1px"
-        },
-        "type": "border"
-      },
-      "high-contrast": {
-        "value": {
-          "color": "{lines.high-contrast}",
-          "width": "1px",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "default": {
-        "value": {
-          "color": "{lines.default}",
-          "width": "1px",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "low-contrast": {
-        "value": {
-          "color": "{lines.low-contrast}",
-          "width": "1px",
-          "style": "solid"
-        },
-        "type": "border"
-      }
-    },
     "hidden": {
       "translucent-light": {
         "value": "#FFFFFFA6",
