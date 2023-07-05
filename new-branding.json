@@ -2480,7 +2480,26 @@
       }
     }
   },
-  "bottom-nav": {},
+  "bottom-nav": {
+    "bottom-nav": {
+      "bg": {
+        "default": {
+          "value": "{neutral.surface-lightened}",
+          "type": "color"
+        }
+      },
+      "fg": {
+        "default": {
+          "value": "{neutral.on-surface-subdued-1}",
+          "type": "color"
+        },
+        "selected": {
+          "value": "{brand.default}",
+          "type": "color"
+        }
+      }
+    }
+  },
   "button": {
     "button": {
       "primary": {
@@ -3159,8 +3178,7 @@
       },
       "selectedTokenSets": {
         "reference": "source",
-        "semantic light": "enabled",
-        "bottom-nav": "disabled"
+        "semantic light": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:4",
@@ -3399,8 +3417,7 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic dark": "enabled",
-        "bottom-nav": "disabled"
+        "semantic dark": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:5",
