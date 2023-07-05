@@ -1789,7 +1789,7 @@
         "type": "color"
       }
     },
-    "thin": {
+    "light": {
       "value": "0.5px",
       "type": "borderWidth"
     },
