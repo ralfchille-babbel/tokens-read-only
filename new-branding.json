@@ -2567,6 +2567,108 @@
           }
         }
       },
+      "large": {
+        "icon-size": {
+          "value": "{size.x6}",
+          "type": "sizing"
+        },
+        "label": {
+          "value": "{text-strong.large}",
+          "type": "typography"
+        },
+        "icon-off": {
+          "left-padding": {
+            "value": "{space.x8}",
+            "type": "spacing"
+          },
+          "right-padding": {
+            "value": "{space.x8}",
+            "type": "spacing"
+          },
+          "top-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "bottom-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          }
+        },
+        "alignIcon-start": {
+          "left-padding": {
+            "value": "{space.x6}",
+            "type": "spacing"
+          },
+          "right-padding": {
+            "value": "{space.x8}",
+            "type": "spacing"
+          },
+          "top-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "bottom-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "internal-spacing": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          }
+        },
+        "alignIcon-end": {
+          "left-padding": {
+            "value": "{space.x8}",
+            "type": "spacing"
+          },
+          "right-padding": {
+            "value": "{space.x6}",
+            "type": "spacing"
+          },
+          "top-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "bottom-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "internal-spacing": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          }
+        },
+        "icon-only": {
+          "padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          }
+        }
+      },
+      "xlarge": {
+        "icon-size": {
+          "value": "{size.x8}",
+          "type": "sizing"
+        },
+        "icon-only": {
+          "padding": {
+            "value": "{size.x4}",
+            "type": "spacing"
+          }
+        }
+      },
+      "xxlarge": {
+        "icon-size": {
+          "value": "{size.x8}",
+          "type": "sizing"
+        },
+        "icon-only": {
+          "padding": {
+            "value": "{size.x6}",
+            "type": "spacing"
+          }
+        }
+      },
       "primary": {
         "bg": {
           "enabled": {
