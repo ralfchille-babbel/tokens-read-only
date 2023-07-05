@@ -2222,6 +2222,12 @@
         },
         "type": "border"
       }
+    },
+    "hidden": {
+      "translucent-light": {
+        "value": "#FFFFFFA6",
+        "type": "color"
+      }
     }
   },
   "link": {
