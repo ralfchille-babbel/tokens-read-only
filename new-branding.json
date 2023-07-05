@@ -2485,7 +2485,16 @@
       "bg": {
         "default": {
           "value": "{neutral.surface-lightened}",
-          "type": "color"
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.86",
+                "space": "lch"
+              }
+            }
+          }
         }
       },
       "fg": {
@@ -3427,6 +3436,7 @@
         "brand.enabled": "79d0e7eada14a61b3afbb1ac5602963f54a17bf7",
         "brand.hover": "7263f660f625cb26bc606c4819a5ccdb9ab160dc",
         "brand.active": "f984c8d484976bc396e31eec104d8d11963a9bc5",
+        "brand.on-enabled": "386fb1246a616e9fea12719da50ca04e2f06627b",
         "brand.surface-lightened": "aa248f3e213f5d0123ee0534e76c97028edbcbcd",
         "brand.surface-default": "e8ce2bbcb2047e1394c8c12c4aba36a6707a128a",
         "brand.surface-darkened": "4479fce6dab4b22317f34a5b3d0914653d61634d",
@@ -3436,14 +3446,17 @@
         "brand-inverse.enabled": "c4158b284847d68b0cd79042eb1a0da732f2f805",
         "brand-inverse.hover": "a1f4622ffacf5606f42579d1021b42193a8d7135",
         "brand-inverse.active": "9a4aaa302080e75dfe0531db2148d40454c88738",
+        "brand-inverse.on-enabled": "5b5d15c9f3f7fa14de6f21ecad7c140b730f7728",
         "accent.enabled": "b9efc2afd7bd18308eb3161adc9dd2795ce63731",
         "accent.hover": "bd2e9783250d87c1d87d69c4f66979fe68a5fab3",
         "accent.active": "9634e0db09300765260c7d59c94f96409db0957f",
         "accent.selected": "184e3124d81bcdc6fc6a82bb9d372456dae60366",
+        "accent.on-enabled": "2edf5156f3ff450b2132f0bdb5e478b7866bc001",
         "accent-inverse.enabled": "d77b4520bc4acf2c8d667fc87adb15a1c9dc1333",
         "accent-inverse.hover": "88571c091e6bdf91821f4f74d9ad5e35fdb8dedb",
         "accent-inverse.active": "2194e99e100bec2acd3f34933d2298691e87d894",
         "accent-inverse.selected": "c72dc68f11f731ae3e3b9f0229fcd6614b17fb27",
+        "accent-inverse.on-enabled": "61ac27ced55464ae17c88bc70f021731932a77ef",
         "neutral.on-surface-default": "f22baa9f2611ff65ccaeeaa24e9e24ddecf9e271",
         "neutral.on-surface-subdued-1": "7b0d0636fbcc13c08b40e4976872ad21602aca84",
         "neutral.on-surface-subdued-2": "f5e12b3b4b6ee813d6882a10289b0545ee3f17a0",
@@ -3491,10 +3504,6 @@
         "illustration.emerald.dark": "2ed630e729680b34e71c41c025e65a59c35a90b7",
         "illustration.on-surface-dark": "68342aebd7280f627936c313d42e8a07e2d62d49",
         "illustration.on-surface-light": "921ee95e3b52c69aa3d9f04c728872aa2dc6c96e",
-        "brand.on-enabled": "7aaa49818b1820138da3e3650d4d76b5cdd76af9",
-        "brand-inverse.on-enabled": "18f0a460708ad678d3730cc5cb26ceb433a7111d",
-        "accent.on-enabled": "112676b57a9aec3cab68da9fcf5339c9c24c8ea5",
-        "accent-inverse.on-enabled": "2b9da535def61a260d20c95ea5d370afd07c3ede",
         "disabled.on-surface": "3533eb37e211b75dd42b9de4d67c64747eba3c81",
         "radius.xsmall": "f0b6085362e09c6cc7489e0c9504d2b9cc75b816",
         "radius.small": "d61b085e43d032453b2aac4e1250cc840e71396b",
@@ -3610,6 +3619,9 @@
         "button.tertiary-inverse.bg.disabled": "1261d893692a1d6dbbacdb1400c76397a89f5cfc",
         "button.tertiary-inverse.fg.default": "f2f73361bed0e1a7a0b6a842f40df8f38f8ae3e3",
         "button.tertiary-inverse.fg.disabled": "ec8f9ca62f2ebdc180fcfd4ccd77dbe8a64835fc",
+        "bottom-nav.bg.default": "1734c8521caaebd82127303547e14d4e809694b1",
+        "bottom-nav.fg.default": "d5229a18a66f3a54fa8413da31d9ab87c7aeb95e",
+        "bottom-nav.fg.selected": "d4bbc90e5cc2d9ab6e1767635a2b0cce9f4b4712",
         "badge.default.bg": "cd9fb15e685c26416eea0f012c88565bf6214a95",
         "badge.default.fg": "356ea996b40e2e87dd26a1affec186efb1a80154",
         "badge.default-lightened.bg": "e4bed02b8b76a1bd009a55a91106f2cec6ad5c59",
@@ -3625,7 +3637,21 @@
         "badge.failure.bg": "5bb9254e5c8420e39b8975c34d7f3e5340f64e70",
         "badge.failure.fg": "93762d1b7ac201d6e61c29694823bc95f4bcc3f2",
         "badge.default-translucent-dark.bg": "a0488b25eed8fc45ac0706097bfa66deddee3f59",
-        "badge.default-translucent-dark.fg": "f3bc904d23d281dd9a0225967cc1ef00f4f6841c"
+        "badge.default-translucent-dark.fg": "f3bc904d23d281dd9a0225967cc1ef00f4f6841c",
+        "link.default.text-color": "596c4ab20fb11c84edfddeac7eff8a40611253cc",
+        "link.default.icon-color": "a6477a2ed3a67fae2186a6515df19eb073a8aa9f",
+        "link.highlight.text-color": "41352ed4521e557af85a9609939005c8aa83b9e1",
+        "link.highlight.icon-color": "0e7e433de623804df24be6f689f5abd6553672fa",
+        "link.subdued.text-color": "0b980e97ba9d7a1d66619a954ad891f4440601a3",
+        "link.subdued.icon-color": "4f014ebfbe2b437dd0b6984f72fded446fdc1506",
+        "link.disabled.text-color": "56076e1e8ac078c6248576a96ace3186fda66272",
+        "link.disabled.icon-color": "7d5a60951aeefdd376c405a6512a954ef3bfdebc",
+        "link.hover.text-color": "e7f7bc60a4c714612faa22e96b2f3afa6e15d1a0",
+        "link.hover.icon-color": "3c1585c5ecbb5e24953e07e87db7041a38fbc23b",
+        "link.active.text-color": "0ec7f238d5174cb732c84f2cc7b6b0c5ef933cf7",
+        "link.active.icon-color": "5a373843b6cdf1a5255fa663ea51091d7b4deba8",
+        "link.inverse.text-color": "55444af2639e5ad5f154d1d20c67e1330dc3c5c7",
+        "link.inverse.icon-color": "e24c5ab928955db4fe1beb1314088a91142205de"
       },
       "group": "Component"
     }
