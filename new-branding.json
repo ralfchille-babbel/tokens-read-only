@@ -2516,8 +2516,100 @@
   "button": {
     "button": {
       "small": {
-        "left-padding": "{space.x2}",
-        "type": "spacing"
+        "icon-size": {
+          "value": "{size.x5}",
+          "type": "sizing"
+        },
+        "label": {
+          "value": "{text-strong.default}",
+          "type": "typography"
+        },
+        "icon-off": {
+          "left-padding": {
+            "value": "{space.x4}",
+            "type": "spacing"
+          },
+          "right-padding": {
+            "value": "{space.x4}",
+            "type": "spacing"
+          },
+          "top-padding": {
+            "value": "{space.x2}",
+            "type": "spacing"
+          },
+          "bottom-padding": {
+            "value": "{space.x2}",
+            "type": "spacing"
+          }
+        },
+        "alignIcon-start": {
+          "left-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "right-padding": {
+            "value": "{space.x4}",
+            "type": "spacing"
+          },
+          "top-padding": {
+            "value": "{space.x2}",
+            "type": "spacing"
+          },
+          "bottom-padding": {
+            "value": "{space.x2}",
+            "type": "spacing"
+          },
+          "internal-spacing": {
+            "value": "{space.x1}",
+            "type": "spacing"
+          }
+        },
+        "alignIcon-end": {
+          "left-padding": {
+            "value": "{space.x4}",
+            "type": "spacing"
+          },
+          "right-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "top-padding": {
+            "value": "{space.x2}",
+            "type": "spacing"
+          },
+          "bottom-padding": {
+            "value": "{space.x2}",
+            "type": "spacing"
+          },
+          "internal-spacing": {
+            "value": "{space.x1}",
+            "type": "spacing"
+          }
+        },
+        "icon-only": {
+          "padding": {
+            "value": "{space.x2}",
+            "type": "spacing"
+          }
+        }
+      },
+      "default": {
+        "left-padding": {
+          "value": "{space.x4}"
+        },
+        "type": "spacing",
+        "right-padding": {
+          "value": "{space.x4}",
+          "type": "spacing"
+        },
+        "top-padding": {
+          "value": "{space.x2}",
+          "type": "spacing"
+        },
+        "bottom-padding": {
+          "value": "{space.x2}",
+          "type": "spacing"
+        }
       },
       "primary": {
         "bg": {
