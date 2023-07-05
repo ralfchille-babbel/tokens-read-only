@@ -1822,6 +1822,18 @@
         "value": "#FFFFFFA6",
         "type": "color"
       }
+    },
+    "thin": {
+      "value": "0.5px",
+      "type": "borderWidth"
+    },
+    "default": {
+      "value": "1px",
+      "type": "borderWidth"
+    },
+    "strong": {
+      "value": "2px",
+      "type": "borderWidth"
     }
   },
   "semantic dark": {
@@ -3820,7 +3832,6 @@
       "semantic light",
       "semantic dark",
       "link",
-      "round-button",
       "badge",
       "bottom-nav",
       "button",
