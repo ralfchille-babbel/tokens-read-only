@@ -2486,15 +2486,7 @@
         "default": {
           "value": "{neutral.surface-lightened}",
           "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "alpha",
-                "value": "0.86",
-                "space": "lch"
-              }
-            }
-          }
+          "$extensions": {}
         }
       },
       "fg": {
