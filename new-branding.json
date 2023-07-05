@@ -2304,110 +2304,6 @@
       }
     }
   },
-  "round-button": {
-    "primary": {
-      "default": {
-        "icon-color": {
-          "value": "{brand.on-enabled}",
-          "type": "color"
-        },
-        "background": {
-          "value": "{brand.enabled}",
-          "type": "color"
-        }
-      },
-      "hover": {
-        "background": {
-          "value": "{brand.hover}",
-          "type": "color"
-        }
-      },
-      "active": {
-        "background": {
-          "value": "{brand.active}",
-          "type": "color"
-        }
-      },
-      "disabled": {
-        "background": {
-          "value": "{disabled.surface}",
-          "type": "color"
-        },
-        "icon-color": {
-          "value": "{disabled.on-surface-subdued}",
-          "type": "color"
-        }
-      }
-    },
-    "secondary": {
-      "default": {
-        "background": {
-          "value": "{accent-inverse.enabled}",
-          "type": "color"
-        },
-        "icon-color": {
-          "value": "{accent.enabled}",
-          "type": "color"
-        },
-        "border-color": {
-          "value": "{lines.default}",
-          "type": "color"
-        }
-      },
-      "active": {
-        "background": {
-          "value": "{accent-inverse.active}",
-          "type": "color"
-        }
-      },
-      "disable": {
-        "background": {
-          "value": "{neutral.surface-lightened}",
-          "type": "color"
-        }
-      },
-      "disabled": {
-        "icon-color": {
-          "value": "{disabled.on-surface-subdued}",
-          "type": "color"
-        }
-      }
-    },
-    "tertiary": {
-      "default": {
-        "background": {
-          "value": "{other.none}",
-          "type": "color"
-        },
-        "icon-color": {
-          "value": "{accent.enabled}",
-          "type": "color"
-        }
-      },
-      "hover": {
-        "background": {
-          "value": "{accent-inverse.hover}",
-          "type": "color"
-        }
-      },
-      "active": {
-        "background": {
-          "value": "{accent-inverse.active}",
-          "type": "color"
-        }
-      },
-      "disable": {
-        "background": {
-          "value": "{other.none}",
-          "type": "color"
-        },
-        "icon-color": {
-          "value": "{disabled.on-surface-subdued}",
-          "type": "color"
-        }
-      }
-    }
-  },
   "badge": {
     "badge": {
       "default": {
@@ -2594,21 +2490,81 @@
         }
       },
       "default": {
-        "left-padding": {
-          "value": "{space.x4}"
+        "icon-size": {
+          "value": "{size.x5}",
+          "type": "sizing"
         },
-        "type": "spacing",
-        "right-padding": {
-          "value": "{space.x4}",
-          "type": "spacing"
+        "label": {
+          "value": "{text-strong.default}",
+          "type": "typography"
         },
-        "top-padding": {
-          "value": "{space.x2}",
-          "type": "spacing"
+        "icon-off": {
+          "left-padding": {
+            "value": "{space.x6}",
+            "type": "spacing"
+          },
+          "right-padding": {
+            "value": "{space.x6}",
+            "type": "spacing"
+          },
+          "top-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "bottom-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          }
         },
-        "bottom-padding": {
-          "value": "{space.x2}",
-          "type": "spacing"
+        "alignIcon-start": {
+          "left-padding": {
+            "value": "{space.x5}",
+            "type": "spacing"
+          },
+          "right-padding": {
+            "value": "{space.x6}",
+            "type": "spacing"
+          },
+          "top-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "bottom-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "internal-spacing": {
+            "value": "{space.x2}",
+            "type": "spacing"
+          }
+        },
+        "alignIcon-end": {
+          "left-padding": {
+            "value": "{space.x6}",
+            "type": "spacing"
+          },
+          "right-padding": {
+            "value": "{space.x5}",
+            "type": "spacing"
+          },
+          "top-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "bottom-padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          },
+          "internal-spacing": {
+            "value": "{space.x2}",
+            "type": "spacing"
+          }
+        },
+        "icon-only": {
+          "padding": {
+            "value": "{space.x3}",
+            "type": "spacing"
+          }
         }
       },
       "primary": {
