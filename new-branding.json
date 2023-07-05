@@ -2515,6 +2515,10 @@
   },
   "button": {
     "button": {
+      "small": {
+        "left-padding": "{space.x2}",
+        "type": "spacing"
+      },
       "primary": {
         "bg": {
           "enabled": {
