@@ -2480,6 +2480,7 @@
       }
     }
   },
+  "bottom-nav": {},
   "button": {
     "button": {
       "primary": {
@@ -3158,7 +3159,8 @@
       },
       "selectedTokenSets": {
         "reference": "source",
-        "semantic light": "enabled"
+        "semantic light": "enabled",
+        "bottom-nav": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:4",
@@ -3397,7 +3399,8 @@
       "selectedTokenSets": {
         "reference": "source",
         "semantic light": "enabled",
-        "semantic dark": "enabled"
+        "semantic dark": "enabled",
+        "bottom-nav": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7313",
       "$figmaModeId": "3103:5",
@@ -3529,7 +3532,9 @@
         "reference": "source",
         "semantic light": "source",
         "badge": "enabled",
-        "button": "enabled"
+        "button": "enabled",
+        "link": "enabled",
+        "bottom-nav": "enabled"
       },
       "$figmaCollectionId": "VariableCollectionId:3103:7431",
       "$figmaModeId": "3103:6",
@@ -3616,6 +3621,7 @@
       "link",
       "round-button",
       "badge",
+      "bottom-nav",
       "button",
       "card",
       "progress-bar",
