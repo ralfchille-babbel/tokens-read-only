@@ -1420,19 +1420,6 @@
         "value": "{reference.transparent}",
         "type": "color"
       },
-      "navigation-background": {
-        "value": "{neutral.surface-lightened}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.86",
-              "space": "lch"
-            }
-          }
-        }
-      },
       "focus": {
         "value": "{reference.orange.orange500}",
         "type": "color"
@@ -2055,19 +2042,6 @@
         "value": "{reference.transparent}",
         "type": "color"
       },
-      "navigation-background": {
-        "value": "{neutral.surface-lightened}",
-        "type": "color",
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "value": "0.86",
-              "space": "lch"
-            }
-          }
-        }
-      },
       "focus": {
         "value": "{reference.orange.orange500}",
         "type": "color"
@@ -2510,7 +2484,7 @@
     "bottom-nav": {
       "bg": {
         "default": {
-          "value": "{other.navigation-background}",
+          "value": "{neutral.surface-lightened}",
           "type": "color",
           "$extensions": {
             "studio.tokens": {
