@@ -244,6 +244,11 @@
         "type": "spacing",
         "description": "1rem"
       },
+      "x5": {
+        "value": "20px",
+        "type": "spacing",
+        "description": "1.25rem"
+      },
       "x6": {
         "value": "24px",
         "type": "spacing",
@@ -3143,6 +3148,7 @@
         "illustration.emerald.dark": "2ed630e729680b34e71c41c025e65a59c35a90b7",
         "illustration.on-surface-dark": "68342aebd7280f627936c313d42e8a07e2d62d49",
         "illustration.on-surface-light": "921ee95e3b52c69aa3d9f04c728872aa2dc6c96e",
+        "hidden.translucent-light": "0e202ecb1e48cb74a7a5a3757fac017da139c9d0",
         "radius.xsmall": "f0b6085362e09c6cc7489e0c9504d2b9cc75b816",
         "radius.small": "d61b085e43d032453b2aac4e1250cc840e71396b",
         "radius.default": "766f698e3c618a0a6c66d4fd232baf55b8fa58a8",
@@ -3184,7 +3190,10 @@
         "space.x16": "8ddb105a930d862e564526bcb3c1abd8a16c707b",
         "space.x24": "a2e4414cee31de0dd94570601c6ceaaff266acf6",
         "space.x32": "3459f9778110275d9415fc96975a4b7f8191f797",
-        "space.x48": "7a131984787e264b86b25d43644f5438b02b6c4a"
+        "space.x48": "7a131984787e264b86b25d43644f5438b02b6c4a",
+        "light": "0dcdd38011f322f184011a91d6e8c1e8f61c964e",
+        "default": "4604dd6596425c878a9ce66cb3c471e84c0e4a5c",
+        "strong": "03190c2c37e92e4a5707be5fd237e5bacc0abf2b"
       },
       "group": "Semantic"
     },
@@ -3382,6 +3391,7 @@
         "illustration.emerald.dark": "2ed630e729680b34e71c41c025e65a59c35a90b7",
         "illustration.on-surface-dark": "68342aebd7280f627936c313d42e8a07e2d62d49",
         "illustration.on-surface-light": "921ee95e3b52c69aa3d9f04c728872aa2dc6c96e",
+        "hidden.translucent-light": "0e202ecb1e48cb74a7a5a3757fac017da139c9d0",
         "disabled.on-surface": "3533eb37e211b75dd42b9de4d67c64747eba3c81",
         "radius.xsmall": "f0b6085362e09c6cc7489e0c9504d2b9cc75b816",
         "radius.small": "d61b085e43d032453b2aac4e1250cc840e71396b",
@@ -3424,7 +3434,10 @@
         "space.x16": "8ddb105a930d862e564526bcb3c1abd8a16c707b",
         "space.x24": "a2e4414cee31de0dd94570601c6ceaaff266acf6",
         "space.x32": "3459f9778110275d9415fc96975a4b7f8191f797",
-        "space.x48": "7a131984787e264b86b25d43644f5438b02b6c4a"
+        "space.x48": "7a131984787e264b86b25d43644f5438b02b6c4a",
+        "light": "0dcdd38011f322f184011a91d6e8c1e8f61c964e",
+        "default": "4604dd6596425c878a9ce66cb3c471e84c0e4a5c",
+        "strong": "03190c2c37e92e4a5707be5fd237e5bacc0abf2b"
       },
       "group": "Semantic"
     },
