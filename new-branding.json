@@ -3229,7 +3229,7 @@
           "type": "color"
         },
         "enabled": {
-          "value": "{accent.enabled} ",
+          "value": "{accent.enabled}",
           "type": "color"
         }
       }
@@ -3738,6 +3738,7 @@
       "$figmaVariableReferences": {
         "title-bar.bg.default": "d8dbde2d916b85ae8ecc197c9e5f425349ba6367",
         "title-bar.fg.default": "afcfea50326b659ebc4b0fc1270ea2d2f94b615b",
+        "title-bar.fg.enabled": "e3b6484ce38454ab36142d27934b81aed0a3fc28",
         "button.primary.bg.enabled": "940133143f133b28f989dd42395f3992cc01ae44",
         "button.primary.bg.hover": "802342bd1b455158542a6a9b98aeffd993398845",
         "button.primary.bg.active": "ec24ec47f38859514f15a4bd93d82db8f2a79043",
