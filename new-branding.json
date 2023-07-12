@@ -3225,7 +3225,7 @@
       },
       "fg": {
         "default": {
-          "value": "{neutral.on-surface-default} ",
+          "value": "{neutral.on-surface-default}",
           "type": "color"
         }
       }
@@ -3732,8 +3732,8 @@
       "$figmaCollectionId": "VariableCollectionId:3103:7431",
       "$figmaModeId": "3103:6",
       "$figmaVariableReferences": {
-        "title-bar.bg.default": "d244a275a988adc0e8b811f9ef1a6321bbec39b5",
-        "title-bar.fg.default": "1d79c19b784385a0588b6f1f144b727d4bc025bd",
+        "title-bar.bg.default": "d8dbde2d916b85ae8ecc197c9e5f425349ba6367",
+        "title-bar.fg.default": "afcfea50326b659ebc4b0fc1270ea2d2f94b615b",
         "button.primary.bg.enabled": "940133143f133b28f989dd42395f3992cc01ae44",
         "button.primary.bg.hover": "802342bd1b455158542a6a9b98aeffd993398845",
         "button.primary.bg.active": "ec24ec47f38859514f15a4bd93d82db8f2a79043",
