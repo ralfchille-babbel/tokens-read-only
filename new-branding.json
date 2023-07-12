@@ -3227,6 +3227,10 @@
         "default": {
           "value": "{neutral.on-surface-default}",
           "type": "color"
+        },
+        "enabled": {
+          "value": "{accent.enabled} ",
+          "type": "color"
         }
       }
     }
