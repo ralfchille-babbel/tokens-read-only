@@ -3214,6 +3214,23 @@
       }
     }
   },
+  "title-bar": {
+    "title-bar": {
+      "bg": {
+        "default": {
+          "value": "{neutral.surface-lightened}",
+          "type": "color",
+          "$extensions": {}
+        }
+      },
+      "fg": {
+        "default": {
+          "value": "{neutral.on-surface-default} ",
+          "type": "color"
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "651c36f837c02455a24074cd2e151093a0e1cbd3",
@@ -3800,7 +3817,59 @@
         "link.active.text-color": "0ec7f238d5174cb732c84f2cc7b6b0c5ef933cf7",
         "link.active.icon-color": "5a373843b6cdf1a5255fa663ea51091d7b4deba8",
         "link.inverse.text-color": "55444af2639e5ad5f154d1d20c67e1330dc3c5c7",
-        "link.inverse.icon-color": "e24c5ab928955db4fe1beb1314088a91142205de"
+        "link.inverse.icon-color": "e24c5ab928955db4fe1beb1314088a91142205de",
+        "button.small.icon-size": "11ec02a46a4965d7fa70374fcaccca1547bb0c3b",
+        "button.small.icon-off.left-padding": "c488b7e691846ee6652b81e8907e1314d355a408",
+        "button.small.icon-off.right-padding": "fb563cddbea06139aa75e58e2bc00876befbd871",
+        "button.small.icon-off.top-padding": "ae075e4cbd8bf2bbb0cde7fccc3801db06297015",
+        "button.small.icon-off.bottom-padding": "d2df91b1bd672bd48c5bdcc9d25a348513287a9a",
+        "button.small.alignIcon-start.left-padding": "69992e4faf76e51299f824f340bc1404aee36816",
+        "button.small.alignIcon-start.right-padding": "57d27837a7310e4b32761b2174bc747b7a369561",
+        "button.small.alignIcon-start.top-padding": "34585f3fbc1240f9a7aed94a292e9060ba092fca",
+        "button.small.alignIcon-start.bottom-padding": "99697cf637d4c0a234f91ed9936edc4ac38c5615",
+        "button.small.alignIcon-start.internal-spacing": "55028789f1b3600e67112a3215b61bc41330c8f1",
+        "button.small.alignIcon-end.left-padding": "161c1a4f2666677b1d1c40a07ddb62be10058f15",
+        "button.small.alignIcon-end.right-padding": "9c2ccea7820eb34411fc7dd2667365711ed55b26",
+        "button.small.alignIcon-end.top-padding": "49a895529beab255268610ee35046d0a0045fd1d",
+        "button.small.alignIcon-end.bottom-padding": "ca66ba463c8aa987d04cf8e371056c242606bd4b",
+        "button.small.alignIcon-end.internal-spacing": "ac21c90ef72189b3dbccd7cc8329a7dd72c7cb38",
+        "button.small.icon-only.padding": "0eb4e3fd10697bdbb82167786ddd84eb8a3411a6",
+        "button.default.icon-size": "6f89447652c76e59ef5d5116497148668de4bdbc",
+        "button.default.icon-off.left-padding": "54aae731d56d81b786f60d572a9239acf79f0ee4",
+        "button.default.icon-off.right-padding": "b15506f818cdd1d8e02a6ea324570790e9aac2bb",
+        "button.default.icon-off.top-padding": "dcb82f18b0aea8f2bca262f6f9751a81d88d1b6c",
+        "button.default.icon-off.bottom-padding": "a41e4441212dfc26d3c9acb5d824ecf2ccbfce52",
+        "button.default.alignIcon-start.left-padding": "11f312751e3316629e4768902473115930e890d8",
+        "button.default.alignIcon-start.right-padding": "e2d23eae568b44687f1f9f9cf7eaeb0467adaa05",
+        "button.default.alignIcon-start.top-padding": "38408a85acd388404249804f0a26cdcdf938595f",
+        "button.default.alignIcon-start.bottom-padding": "44c6769acae4550fbd6523de07d855f5d5bf5c32",
+        "button.default.alignIcon-start.internal-spacing": "9187a8307e8e3683cd49f8b6d67a412732e50709",
+        "button.default.alignIcon-end.left-padding": "1b4a34e09ef20bf74890153053cfdb14f835dc08",
+        "button.default.alignIcon-end.right-padding": "859b37dcc6ddca3a5b4645a0191180c520eaa752",
+        "button.default.alignIcon-end.top-padding": "3d5ff1cb624d7f0c72133914f229d999a938dc2b",
+        "button.default.alignIcon-end.bottom-padding": "8e762eb1aea4f5a52448b2726ebce313c45e78d5",
+        "button.default.alignIcon-end.internal-spacing": "88755de9853b8030897ff00943296a40295363bf",
+        "button.default.icon-only.padding": "8dc9ba89cc24212cd2e7ff3e766a5a9ff021109f",
+        "button.large.icon-size": "4157c2cd3b69f6f7703880ec8e864014aa3c0777",
+        "button.large.icon-off.left-padding": "b97f8cc55100268d5a47cf5af312658566470f2f",
+        "button.large.icon-off.right-padding": "782e40d00e4471b0eed6a02272fd0a4cbf66e823",
+        "button.large.icon-off.top-padding": "1d63fa5b7af839edf292f61e89fbda459307dad6",
+        "button.large.icon-off.bottom-padding": "4369f9984d89b5d723e7afd03cf4962434f6ed1f",
+        "button.large.alignIcon-start.left-padding": "8376532edc34f83b71379faa70116f6ee8cbaad8",
+        "button.large.alignIcon-start.right-padding": "4451934be10659e4ddc80271c81ddf0916cf08a2",
+        "button.large.alignIcon-start.top-padding": "7731e9cf51fec02f9217deb85b163db0d5524008",
+        "button.large.alignIcon-start.bottom-padding": "42c69be054677c959608efa33bf0832169295dde",
+        "button.large.alignIcon-start.internal-spacing": "f5894a0731275a1f3b391ab5b9f31a382a41d801",
+        "button.large.alignIcon-end.left-padding": "9d38f50688926c9753f410eeb1943b9606f99e72",
+        "button.large.alignIcon-end.right-padding": "e0fb3352f85e22bdc24f91a08c2b85be31f6fba3",
+        "button.large.alignIcon-end.top-padding": "02f92da25c9be88d306033054f47f687c846a8b6",
+        "button.large.alignIcon-end.bottom-padding": "ec0e66dbb56e85860aa0f1a61994612d1ad91d61",
+        "button.large.alignIcon-end.internal-spacing": "88e9dc2f4a09f3e254a620335bf1cd8386c55157",
+        "button.large.icon-only.padding": "f28f13b306280b9e4b39439c1dc5d86d83aa1935",
+        "button.xlarge.icon-size": "6bba5bbfedf14fa201cd37a3d8195f7c8161bdde",
+        "button.xlarge.icon-only.padding": "c9cc69eed9f4cdd0b3f5fca94427a20822547498",
+        "button.xxlarge.icon-size": "1cd2af713cb66072a406fdb0e6eddd261c5a302b",
+        "button.xxlarge.icon-only.padding": "5391fcc2bb8ec6d055b2f6dcc51eb87a77e97ffe"
       },
       "group": "Component"
     }
@@ -3824,7 +3893,8 @@
       "toast",
       "tooltip",
       "view",
-      "modal"
+      "modal",
+      "title-bar"
     ]
   }
 }
