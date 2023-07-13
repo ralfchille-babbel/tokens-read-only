@@ -1521,7 +1521,7 @@
         "value": "{radius-size.x1}",
         "type": "borderRadius"
       },
-      "default": {
+      "medium": {
         "value": "{radius-size.x2}",
         "type": "borderRadius"
       },
@@ -3430,7 +3430,7 @@
         "hidden.translucent-light": "0e202ecb1e48cb74a7a5a3757fac017da139c9d0",
         "radius.xsmall": "f0b6085362e09c6cc7489e0c9504d2b9cc75b816",
         "radius.small": "d61b085e43d032453b2aac4e1250cc840e71396b",
-        "radius.default": "766f698e3c618a0a6c66d4fd232baf55b8fa58a8",
+        "radius.medium": "9c45c28315749b78551c4f3fd24d3c29c9822dd8",
         "radius.large": "751ba4708ba19b7f98c5e45ff20f09478352b124",
         "radius.xlarge": "c947363952185302fa011503c5bbc98e0f17e715",
         "radius.round": "6381e4b7819fea25e40c0b8633f909bce8fad0f9",
@@ -3678,6 +3678,7 @@
         "radius.large": "751ba4708ba19b7f98c5e45ff20f09478352b124",
         "radius.xlarge": "c947363952185302fa011503c5bbc98e0f17e715",
         "radius.round": "6381e4b7819fea25e40c0b8633f909bce8fad0f9",
+        "radius.medium": "9c45c28315749b78551c4f3fd24d3c29c9822dd8",
         "size.x1": "802a75010c2d224ca10d41eda310faa38c8a553d",
         "size.x2": "c677b540554a3e949bc22730be7d631e82ce1383",
         "size.x3": "993a97398428b519e7af0288cc3bd10dc3526d69",
