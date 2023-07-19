@@ -2279,6 +2279,16 @@
           "type": "color"
         }
       },
+      "translucent-dark": {
+        "bg": {
+          "value": "{hidden.translucent-dark}",
+          "type": "color"
+        },
+        "fg": {
+          "value": "{illustration.on-surface-light}",
+          "type": "color"
+        }
+      },
       "success": {
         "bg": {
           "value": "{feedback.success.surface}",
@@ -2306,16 +2316,6 @@
         },
         "fg": {
           "value": "{feedback.attention.on-surface}",
-          "type": "color"
-        }
-      },
-      "translucent-dark": {
-        "bg": {
-          "value": "{hidden.translucent-dark}",
-          "type": "color"
-        },
-        "fg": {
-          "value": "{illustration.on-surface-light}",
           "type": "color"
         }
       }
