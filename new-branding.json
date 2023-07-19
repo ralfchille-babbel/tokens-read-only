@@ -1792,6 +1792,10 @@
       "translucent-light": {
         "value": "#FFFFFFA6",
         "type": "color"
+      },
+      "translucent-dark": {
+        "value": "#14141480",
+        "type": "color"
       }
     },
     "light": {
@@ -2210,6 +2214,10 @@
       "translucent-light": {
         "value": "#FFFFFFA6",
         "type": "color"
+      },
+      "translucent-dark": {
+        "value": "#14141480",
+        "type": "color"
       }
     }
   },
@@ -2319,7 +2327,7 @@
           "type": "color"
         }
       },
-      "default-translucent": {
+      "translucent": {
         "bg": {
           "value": "{hidden.translucent-light}",
           "type": "color"
@@ -2359,9 +2367,9 @@
           "type": "color"
         }
       },
-      "default-translucent-dark": {
+      "translucent-dark": {
         "bg": {
-          "value": "rgba(20,20,20,0.5)",
+          "value": "{hidden.translucent-dark}",
           "type": "color"
         },
         "fg": {
