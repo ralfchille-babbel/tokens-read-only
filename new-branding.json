@@ -1798,17 +1798,19 @@
         "type": "color"
       }
     },
-    "light": {
-      "value": "0.5px",
-      "type": "borderWidth"
-    },
-    "default": {
-      "value": "1px",
-      "type": "borderWidth"
-    },
-    "strong": {
-      "value": "2px",
-      "type": "borderWidth"
+    "border": {
+      "light": {
+        "value": "0.5px",
+        "type": "borderWidth"
+      },
+      "default": {
+        "value": "1px",
+        "type": "borderWidth"
+      },
+      "strong": {
+        "value": "2px",
+        "type": "borderWidth"
+      }
     }
   },
   "semantic dark": {
@@ -2084,32 +2086,6 @@
         "type": "color"
       }
     },
-    "radius": {
-      "xsmall": {
-        "value": "{radius-size.x05}",
-        "type": "borderRadius"
-      },
-      "small": {
-        "value": "{radius-size.x1}",
-        "type": "borderRadius"
-      },
-      "default": {
-        "value": "{radius-size.x2}",
-        "type": "borderRadius"
-      },
-      "large": {
-        "value": "{radius-size.x3}",
-        "type": "borderRadius"
-      },
-      "xlarge": {
-        "value": "{radius-size.x4}",
-        "type": "borderRadius"
-      },
-      "round": {
-        "value": "{radius-size.x1000}",
-        "type": "borderRadius"
-      }
-    },
     "illustration": {
       "tangerine": {
         "light": {
@@ -2174,40 +2150,6 @@
       "on-surface-light": {
         "value": "{reference.white}",
         "type": "color"
-      }
-    },
-    "border": {
-      "accent": {
-        "value": {
-          "style": "solid",
-          "color": "{accent.enabled}",
-          "width": "1px"
-        },
-        "type": "border"
-      },
-      "high-contrast": {
-        "value": {
-          "color": "{lines.high-contrast}",
-          "width": "1px",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "default": {
-        "value": {
-          "color": "{lines.default}",
-          "width": "1px",
-          "style": "solid"
-        },
-        "type": "border"
-      },
-      "low-contrast": {
-        "value": {
-          "color": "{lines.low-contrast}",
-          "width": "1px",
-          "style": "solid"
-        },
-        "type": "border"
       }
     },
     "hidden": {
@@ -3478,9 +3420,9 @@
         "space.x24": "a2e4414cee31de0dd94570601c6ceaaff266acf6",
         "space.x32": "3459f9778110275d9415fc96975a4b7f8191f797",
         "space.x48": "7a131984787e264b86b25d43644f5438b02b6c4a",
-        "light": "0dcdd38011f322f184011a91d6e8c1e8f61c964e",
-        "default": "4604dd6596425c878a9ce66cb3c471e84c0e4a5c",
-        "strong": "03190c2c37e92e4a5707be5fd237e5bacc0abf2b"
+        "border.light": "0dcdd38011f322f184011a91d6e8c1e8f61c964e",
+        "border.default": "4604dd6596425c878a9ce66cb3c471e84c0e4a5c",
+        "border.strong": "03190c2c37e92e4a5707be5fd237e5bacc0abf2b"
       },
       "group": "Semantic"
     },
@@ -3723,9 +3665,9 @@
         "space.x24": "a2e4414cee31de0dd94570601c6ceaaff266acf6",
         "space.x32": "3459f9778110275d9415fc96975a4b7f8191f797",
         "space.x48": "7a131984787e264b86b25d43644f5438b02b6c4a",
-        "light": "0dcdd38011f322f184011a91d6e8c1e8f61c964e",
-        "default": "4604dd6596425c878a9ce66cb3c471e84c0e4a5c",
-        "strong": "03190c2c37e92e4a5707be5fd237e5bacc0abf2b"
+        "border.light": "0dcdd38011f322f184011a91d6e8c1e8f61c964e",
+        "border.default": "4604dd6596425c878a9ce66cb3c471e84c0e4a5c",
+        "border.strong": "03190c2c37e92e4a5707be5fd237e5bacc0abf2b"
       },
       "group": "Semantic"
     },
