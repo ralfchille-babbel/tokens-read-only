@@ -12,10 +12,6 @@
         }
       },
       "weight-grotesk": {
-        "light": {
-          "value": "Light",
-          "type": "fontWeights"
-        },
         "regular": {
           "value": "Regular",
           "type": "fontWeights"
@@ -28,8 +24,8 @@
           "value": "Semibold",
           "type": "fontWeights"
         },
-        "bold": {
-          "value": "Bold",
+        "semibold-italic": {
+          "value": "Semibold Italic",
           "type": "fontWeights"
         }
       },
@@ -209,6 +205,10 @@
       "weight-serif": {
         "regular": {
           "value": "Regular",
+          "type": "fontWeights"
+        },
+        "regular-italic": {
+          "value": "Regular Italic",
           "type": "fontWeights"
         }
       }
@@ -1462,6 +1462,164 @@
       "strong": {
         "value": "2px",
         "type": "borderWidth"
+      }
+    },
+    "display-italic": {
+      "small": {
+        "value": {
+          "fontFamily": "{font.family.serif}",
+          "fontWeight": "{font.weight-serif.regular-italic}",
+          "lineHeight": "{font.line-height.x16}",
+          "fontSize": "{font.font-size.x14}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{font.family.serif}",
+          "fontWeight": "{font.weight-serif.regular-italic}",
+          "lineHeight": "{font.line-height.x18}",
+          "fontSize": "{font.font-size.x16}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{font.family.serif}",
+          "fontWeight": "{font.weight-serif.regular-italic}",
+          "lineHeight": "{font.line-height.x20}",
+          "fontSize": "{font.font-size.x18}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      }
+    },
+    "body-text-strong": {
+      "small": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold}",
+          "lineHeight": "{font.line-height.x5}",
+          "fontSize": "{font.font-size.x3_5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold}",
+          "lineHeight": "{font.line-height.x6}",
+          "fontSize": "{font.font-size.x4}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold}",
+          "lineHeight": "{font.line-height.x7}",
+          "fontSize": "{font.font-size.x5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "xlarge": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold}",
+          "lineHeight": "{font.line-height.x8}",
+          "fontSize": "{font.font-size.x6}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      }
+    },
+    "body-text-strong-italic": {
+      "small": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold-italic}",
+          "lineHeight": "{font.line-height.x5}",
+          "fontSize": "{font.font-size.x3_5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold-italic}",
+          "lineHeight": "{font.line-height.x6}",
+          "fontSize": "{font.font-size.x4}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold-italic}",
+          "lineHeight": "{font.line-height.x7}",
+          "fontSize": "{font.font-size.x5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "xlarge": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.semibold-italic}",
+          "lineHeight": "{font.line-height.x8}",
+          "fontSize": "{font.font-size.x6}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      }
+    },
+    "body-text-italic": {
+      "small": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.regular-italic}",
+          "lineHeight": "{font.line-height.x5}",
+          "fontSize": "{font.font-size.x3_5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.regular-italic}",
+          "lineHeight": "{font.line-height.x6}",
+          "fontSize": "{font.font-size.x4}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.regular-italic}",
+          "lineHeight": "{font.line-height.x7}",
+          "fontSize": "{font.font-size.x5}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
+      },
+      "xlarge": {
+        "value": {
+          "fontFamily": "{font.family.grotesk}",
+          "fontWeight": "{font.weight-grotesk.regular-italic}",
+          "lineHeight": "{font.line-height.x8}",
+          "fontSize": "{font.font-size.x6}",
+          "paragraphSpacing": "{font.paragraph-spacing.x4}"
+        },
+        "type": "typography"
       }
     }
   },
